@@ -2,41 +2,55 @@
 
 ## **Content**
 
-### **INTRODUCTION**
-The purpose of the site is to promote and provide clear description of 
-what My Company  ASK for Solution is dealing with. The link to the website: "##"
+### **INTRODUCTION TO THE PROJECT**
+* The purpose of the site is to promote and provide clear description of 
+what My Company  ASK for Solution is dealing with. 
+* The link to the website: "##"
 
 ### **1. User Experience (UX)**
 
 #### 1.1 User stories 
+* text
+* text
 
 #### 1.2 First Time Visitor Goals
+* text
+* text
 
 #### 1.3 Returning Visitor Goals
+* text
+* text
 
 #### 1.4 Frequent User Goals
-
+* text
+* text
 
 ### **2. Design**
 #### 2.1 Colour Scheme
-The two main colours used are xxx yyy.
+* Color 1
+* Color 2
+
 #### 2.2 Typography
-text
+* text
 
 #### 2.3 Images
+* hero-image
 
 ### **3. Wireframes**
-#### 3.1 Home Page Wireframe - View
-#### 3.2 Mobile Wireframe - View
-#### 3.3 Contact Us Page Wireframe - View
+* Home Page Wireframe - View
+* Mobile Wireframe - View
+* Contact Us Page Wireframe - View
 
 ### **4. Features**
+* text
 
 ### **5. Technologies Used**
-text
+* text
 
 #### 5.1 Languages Used
-text
+* HTML5
+* CSS
+
 #### 5.2 Frameworks,Libraries& Programs Used
 * **Bootstrap 4.4.1**: Bootstrap was used to assist with the responsiveness and styling of the website.
 * Hover.css: Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -47,36 +61,48 @@ text
 * **GitHub**: GitHub is used to store the projects code after being pushed from Git.
 * **Balsamiq**: Balsamiq was used to create the wireframes during the design process.
 
-### 5.3 Other Sources of Inspiration (avoiding plagiarism)
-specify
+#### 5.3 Other Sources of Inspiration (avoiding plagiarism)
+* text
 
 ### **6. Testing**
 #### 6.1 W3C Markup Validator - Results (link)
+* text
 #### 6.2 W3C CSS Validator - Results (link)
+* text
 #### 6.3 UX testing
+* text
 #### 6.4 Known Bugs
+* text
 
 ### **7. Deployment**
 #### 7.1 GitHub Pages
-The project was deployed to GitHub Pages using the following steps...
+* The project was deployed to GitHub Pages using the following steps...
 
 ### **8. Credits**
 #### 8.1 Code
+* text
 #### 8.2 Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* text
 #### 8.3 MDN Web Docs (link)
+* text
 
 ### **9. Content**
-All content was written by the developer.
+* All content was written by the developer.
 
 ### **10. Media**
-All Images were created by the developer.
+* All Images were created by the developer.
 
 ### **11. Acknowledgements**
-text
+* text
 
 #### 11.1 Code Institute
+* text
+
 #### 11.2 Mentor
+* text
+
 #### 11.3 Special Thanks
+* text
 
 ## **PROJECT ASSESSMENT CRITEREA**
 ### **A. Pass Criterea**
