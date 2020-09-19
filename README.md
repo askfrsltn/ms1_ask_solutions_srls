@@ -34,7 +34,8 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 2.3 Images
-* hero-image
+* the original license free hero-image source: https://wallpaperscraft.com/download/minimalism_circles_reflections_light_dark_intuition_93161/1920x1080
+
 
 ### **3. Wireframes**
 * Home Page Wireframe - View
