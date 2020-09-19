@@ -59,7 +59,7 @@ what My Company  ASK for Solution is dealing with.
 * **jQuery**: jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 * **Git**: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * **GitHub**: GitHub is used to store the projects code after being pushed from Git.
-* **Balsamiq**: Balsamiq was used to create the wireframes during the design process.
+* **Balsamiq**: Balsamiq was used to create the wireframes during the design processs
 
 #### 5.3 Other Sources of Inspiration (avoiding plagiarism)
 * text
@@ -102,7 +102,9 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 11.3 Special Thanks
-* text
+1. Screen Sizes: "Relative Pixel Dimensions for Apple Products" https://stonehippo.com/apple_display_pixel_dimensions/   
+2. Design Ideas - https://www.awwwards.com/, especially https://minasi.eu/
+3. 
 
 ## **PROJECT ASSESSMENT CRITEREA**
 ### **A. Pass Criterea**
