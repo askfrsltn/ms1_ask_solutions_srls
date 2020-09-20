@@ -103,8 +103,8 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 11.3 Special Thanks
-1. Screen Sizes: "Relative Pixel Dimensions for Apple Products" https://stonehippo.com/apple_display_pixel_dimensions/   
-2. Design Ideas - https://www.awwwards.com/, especially https://minasi.eu/
+1. Screen Sizes: https://screensiz.es/monitor
+2. Design Ideas: https://www.awwwards.com/, especially https://minasi.eu/
 3. 
 
 ## **PROJECT ASSESSMENT CRITEREA**
