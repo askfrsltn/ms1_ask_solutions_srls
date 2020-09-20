@@ -1,8 +1,28 @@
 /* -------------------FONTS-*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto thin:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /* -------------------COLORS-*/
+body{
+    color:#abbad2;
+}
 
-/* -------------------HEADER-*/
+/* -------------------GENERAL SETTINGS-*/
+h2{
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #abbad2;
+}
 
+p{
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    color: #536872
+}
+.footer h2{
+    font-family: "EXO",sans-serif;
+    font-weight: 400;
+    color: #ff6600
+}
 /* -------------------FOOTER-*/
 

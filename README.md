@@ -100,12 +100,13 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 11.2 Mentor
-* text
+* Ignatius Ukwuoma
 
 #### 11.3 Special Thanks
 1. Screen Sizes: https://screensiz.es/monitor
 2. Design Ideas: https://www.awwwards.com/, especially https://minasi.eu/
-3. 
+3. Font decisions: 
+* Best Modern & Contemporary Thin & Extra Light Fonts: https://www.colourmylearning.com/2018/01/best-modern-contemporary-thin-extra-light-fonts/
 
 ## **PROJECT ASSESSMENT CRITEREA**
 ### **A. Pass Criterea**
