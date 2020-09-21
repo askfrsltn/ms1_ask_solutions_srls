@@ -1,28 +1,79 @@
 /* -------------------FONTS-*/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto thin:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* -------------------COLORS-*/
+
+
+
+/* -------------------SITE-RELATED-*/
 body{
     color:#abbad2;
-}
-
-/* -------------------GENERAL SETTINGS-*/
-h2{
-    font-family: "Exo",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
-    text-transform: uppercase;
+}
+
+
+
+/* -------------------HEADER-*/
+
+header{
+    color: #536872;
+    background: #ababab;
+    margin:0;
+    padding: 0;
+    width:100%;
+}
+.logo{
+    background: url("/assets/imgs/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 19px;
+}
+
+nav {
+    background-color: #black;
+}
+a {
+    text-decoration: none;
+}
+
+.languages{
+    padding: 5;
+    margin:10px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.language-item {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    margin: 1px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
     color: #abbad2;
+    background-color: #536872;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.language-item:hover {
+    background: #fafafa;
+    color: #536872;
 }
 
-p{
-    font-family: "Lato",sans-serif;
-    font-weight: 400;
-    color: #536872
+footer{
+    color: #ff6600;
 }
-.footer h2{
-    font-family: "EXO",sans-serif;
-    font-weight: 400;
-    color: #ff6600
-}
-/* -------------------FOOTER-*/
 
+/* -------------------FRONT-PAGE-*/
+.heading {
+    font-family: "Exo",sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: black;
+}
