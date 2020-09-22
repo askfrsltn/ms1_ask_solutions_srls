@@ -17,6 +17,9 @@ header {
 }
 h5{
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
 }
 p{
     margin: 0;
@@ -108,7 +111,7 @@ p{
 .rsection-shortdescription {
     text-align: left;
     margin-top: 0px;
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
 .rsection-4components {
@@ -123,7 +126,7 @@ p{
 }
 
 #4components li{
-        font-size: 14px;
+        font-size: 25px;
         padding:0;
 }
 
@@ -141,16 +144,20 @@ p{
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+    font-family: "Exo", sans-serif;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 2px;
     color: #abbad2;
 }
 .service-component i {
-    padding: 6px;
+    padding: 10px;
     margin: 1px;
     border-radius: 50%;
-    font-size: 15px;
+    border: 1px solid;
+    border-color: #abbad2;
+    width: 55px;
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
     color: #abbad2;
@@ -163,10 +170,33 @@ p{
 .service-component i:hover {
     background: #536872;
     color: #ffffff;
+    border-color:  #536872;
+    text-decoration: none;
 }
 a {
     text-decoration: none;
 }
+ 
+ 
+ /**   background-color: rgba(171,186,210,.1); property for quote background**/
+
+.rsection-quote{
+    height: 100px;
+
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.quote-image {
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: #536872;
+    border: 1px solid;
+}
+
 /* -------------------FOOTER-*/
 
 footer {
