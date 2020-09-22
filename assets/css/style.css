@@ -100,8 +100,11 @@ p{
     width: 40%;
     margin: 50px;
 }
-
-.rsection-shortdescription {
+.row .rightsection-component {
+    margin: 0;
+    height: 300px;
+}
+.rsection-component {
     height: 150px;
     margin: 0;
 }
