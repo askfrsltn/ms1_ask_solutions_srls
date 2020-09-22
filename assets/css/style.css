@@ -2,19 +2,32 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/* -------------------SITE-RELATED-*/
+/* -------------------GENERAL-*/
 
 body{
-    color:#abbad2;
+    color:#536872;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
+hr{
+    margin: 0;
+}
 
+header {
+    margin: 0;
+}
+h5{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
 /* -------------------HEADER-*/
 
 
+
 .header{
-    background-color: #000000d3;
+    background-color: #ffffff;
     margin:0;
     padding: 0;
     width:33%;
@@ -23,6 +36,7 @@ body{
 .logo {
     margin-left: 50px;
     height: 60px;  
+    border-radius: 5px;
 }
 
 .languages{
@@ -42,8 +56,8 @@ body{
     line-height: 20px;
     text-align: center;
     text-decoration: none;
-    color: #abbad2;
-    background-color: #536872;
+    color: #536872;
+    background-color: #abbad2;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -51,8 +65,8 @@ body{
 }
 
 .language-item:hover {
-    background: #abbad2;
-    color: #000000;
+    background: #536872;
+    color: #ffffff;
 }
 
 
@@ -63,34 +77,58 @@ body{
     text-transform: uppercase;
     font-weight: 300;
     color: #536872;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 0px;
+    margin-top: 5px;
     margin-left: 150px;
+}
+
+.left-section {
+    display: inline-block;
+    height: 400px;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 150px;
+    background: url(/assets/imgs/hero-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-section{
+    display: inline-block;
+    height: 400px;
+    width: 40%;
+    margin: 50px;
+}
+
+.rsection-shortdescription {
+    height: 150px;
+    margin: 0;
 }
 
 /* -------------------FOOTER-*/
 
 footer {
     color: #fafafa;
-    background-color: #000000;
+    background-color: #ffffff;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 60px;
+    margin: 0;
 }
 
 .registration{
     text-align:left;
     width:50%;
-    padding-left: 50px;
-    margin-top: 5px;
-    color:#abbad2;
+    padding-left: 100px;
+    color:#536872;
+    font-size: 15px
 }
 .social-media{
     text-align:right;
     width: 50%;
     padding-right: 100px;
-    margin-top: 15px;
-    color:#abbad2
-
+    margin-top: 10px;
+    color:#536872
 }
