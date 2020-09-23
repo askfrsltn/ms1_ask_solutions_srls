@@ -1,0 +1,233 @@
+/* -------------------FONTS-*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/* -------------------GENERAL-*/
+
+nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+hr{
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+h5{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+}
+p{
+    margin: 0;
+}
+/* -------------------HEADER-*/
+
+.header{
+    background-color: #ffffff;
+    margin:0;
+    padding: 0;
+    height: 60px;
+}
+.logo {
+    margin-left: 50px;
+    height: 60px;  
+    border-radius: 5px;
+}
+
+.languages{
+    padding: 0;
+    margin:13px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.language-item {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    margin: 1px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #536872;
+    background-color: #abbad2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.language-item:hover {
+    background: #536872;
+    color: #ffffff;
+}
+
+
+/* -------------------HOME-CONTENT-*/
+
+
+.heading {
+    font-family: "Exo",sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #536872;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right:0;
+}
+
+.hero-image-section {
+    background: url(/assets/imgs/hero-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 0;
+    background: url(/assets/imgs/hero-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-section {
+    display: block-inline;
+    height: 400px;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.rsection-shortdescription {
+    text-align: left;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.rsection-4components {
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    width: 100%
+}
+#4components {
+    margin: 0;
+}
+
+#4components li{
+        font-size: 25px;
+        padding:0;
+}
+
+.service-component{
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    width: 150px;
+    border-color: #fafafac2;
+}
+
+.service-component-title {
+    display:block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #abbad2;
+}
+.service-component i {
+    padding: 10px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #abbad2;
+    width: 55px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #abbad2;
+    background-color: #fafafac2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.service-component i:hover {
+    background: #536872;
+    color: #ffffff;
+    border-color:  #536872;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+ 
+ 
+ /**   background-color: rgba(171,186,210,.1); property for quote background**/
+
+.rsection-quote{
+    height: 100px;
+
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.quote-image {
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: #536872;
+    border: 1px solid;
+}
+
+/* -------------------FOOTER-*/
+
+footer {
+    color: #fafafa;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+}
+
+.registration{
+    text-align:left;
+    width:50%;
+    padding-left: 100px;
+    color:#536872;
+    font-size: 15px;
+    margin:0;
+}
+.social-media{
+    text-align:right;
+    width: 50%;
+    padding-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0;
+    color:#536872
+}
+
+.social-media-icons {
+    margin-bottom: 0;
+}
