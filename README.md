@@ -3,8 +3,7 @@
 ## **Content**
 
 ### **INTRODUCTION TO THE PROJECT**
-* The purpose of the site is to promote and provide clear description of 
-what My Company  ASK for Solution is dealing with. 
+* The purpose of the site is to promote my consulting services company "ASK SOLUTIONS" to potential service buyer and to convince the user to make a first contact
 * The link to the website: "##"
 
 ### **1. User Experience (UX)**
@@ -18,24 +17,26 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 1.3 Returning Visitor Goals
-* text
-* text
+* Show to other users/my potential client the credentials of the company and examples of the product (service) that I implemented in the past.
+* Contact me after the right time came.
 
 #### 1.4 Frequent User Goals
-* text
-* text
+* Understand how the product works, use the link to the product to demonstrate it to other potential buyers
+* Use the site as an example to build his own website
 
 ### **2. Design**
 #### 2.1 Colour Scheme
-* Color 1
-* Color 2
+* I used 3 colos: 
+**Dark grey, 
+**Light Grey and 
+**Orange
 
 #### 2.2 Typography
-* text
+* I used 2 fonts: Exo for Headings and Lato - for regular text. Exo looks simple,professional yet has own unique style, whyle Lato is easy to read.
+*I tried to use thin style of font-weight (300)
 
 #### 2.3 Images
 * the original license free hero-image source: https://wallpaperscraft.com/download/minimalism_circles_reflections_light_dark_intuition_93161/1920x1080
-
 
 ### **3. Wireframes**
 * Home Page Wireframe - View
@@ -43,20 +44,26 @@ what My Company  ASK for Solution is dealing with.
 * Contact Us Page Wireframe - View
 
 ### **4. Features**
-* text
+* Jumbotron for contact me
+* Carousel for Product and credentials page
+* google maps images
+* buttons form bootstrap.
 
 ### **5. Technologies Used**
-* text
+* I use google inspect
+* I used VIdeo
+* for product I use pictures linked to live google-site website linked to Business Analytics engine.
 
 #### 5.1 Languages Used
 * HTML5
-* CSS
+* CSS3 - Grid, Flexbox
+* JavaScript embedded into bootstrap solutions
 
 #### 5.2 Frameworks,Libraries& Programs Used
 * **Bootstrap 4.4.1**: Bootstrap was used to assist with the responsiveness and styling of the website.
-* Hover.css: Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+* **Hover.css: Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 * **Google Fonts**: Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-* Font Awesome: Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+* **Font Awesome: Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 * **jQuery**: jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 * **Git**: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * **GitHub**: GitHub is used to store the projects code after being pushed from Git.
@@ -100,7 +107,10 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 11.2 Mentor
-* Ignatius Ukwuoma
+* I wan to thank my mentor Ignatius Ukwuoma for:
+1. intro meeting: clear schedule that helped me to understand how to progress towards MS1.
+2. 1st Meeting (23-Sep-2020): Pointion out my potential UIX weaknesses while during Wireframes review, giving very specific advices how to cope with the challenges that I highlighted, giving me links to great sources that helped me to compensate some gaps in my skillset.
+
 
 #### 11.3 Special Thanks
 1. Screen Sizes: https://screensiz.es/monitor
