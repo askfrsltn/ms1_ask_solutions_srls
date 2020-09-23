@@ -36,7 +36,7 @@ body{
 .language-item {
     width: 32px;
     height: 32px;
-    padding: 5px;
+    padding: 6px 5px 5px 5px;
     margin: 1px;
     border-radius: 50%;
     font-size: 15px;
@@ -56,6 +56,14 @@ body{
 .language-item:hover {
     background: #536872;
     color: #ffffff;
+}
+
+.active {
+  border-bottom: 1px solid;
+}
+
+.inactive {
+  color: #abbad2;
 }
 
 .col-4 .nav {
@@ -90,7 +98,7 @@ a h6:hover{
     margin-right:20px;
     height: 40px;
     text-align: right;
-    transition: background-color.15s ease-in-out
+    transition:.15s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -100,7 +108,7 @@ a h6:hover{
     background-color: #ababab;
 }
 
-/* -------------------CONTENT-SECTION-*/
+/* -------------------HOME:CONTENT-SECTION-*/
 
 .title{
     font-family: "Exo",sans-serif;
