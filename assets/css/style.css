@@ -9,8 +9,8 @@ hr{
 }
 
 body{
-    font-family: "Roboto",sans-serif;
-    font-weight: 300;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
     color: #536872;
 }
 
@@ -28,21 +28,23 @@ body{
 .languages{
     padding:0;
     margin:15px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align:left;
     margin-right: 100px;
 }
 
 .language-item {
-    width: 28px;
-    height: 28px;
-    padding: 4px 4px 4px 6px;
-    margin: 2px;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    margin: 1px;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
     color: #536872;
     background-color: #abbad2;
     transition: all 0.35s ease-in-out;
@@ -50,19 +52,27 @@ body{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 .language-item:hover {
     background: #536872;
     color: #ffffff;
 }
+
+.col-4 .nav {
+    margin-right: 10px;
+}
+
 .nav li {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 0;
+    margin-right:10px;
 }
 a h6{
-    font-family: "Roboto",sans-serif;
-    font-weight: 300;
-    color: #abbad2;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    color: #536872;
+    text-align: right;
 }
 
 a h6:hover{
@@ -77,9 +87,13 @@ a h6:hover{
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 15px;
+    margin-right:20px;
     height: 40px;
     text-align: right;
-    transition: background-color.15s ease-in-out,;
+    transition: background-color.15s ease-in-out
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .btn:hover{
@@ -92,9 +106,88 @@ a h6:hover{
     font-family: "Exo",sans-serif;
     text-transform: uppercase;
     font-weight: 300;
-    color: #536872;
-    margin-top: 8px;
+    color: #abbad2;
+    margin-top: 15px;
 }
+
+.hero-image{
+    min-height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rsection-description{
+    font-family: "Exo",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:300;
+    color: #536872;
+    margin-top: 15px;
+}
+
+.rsection-aspects {
+    text-align: center;
+    font-family:"Lato", sans-serif;
+    font-weight:300;
+    margin-top:40px;
+}
+
+.four-components{
+        font-size: 25px;
+        padding-top:20px;
+        width: 100%;
+}
+.four-components h6{
+    margin-top: 5px;
+}
+.service-component{
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    border-color: #fafafac2;
+    width: 23%;
+}
+
+.service-component-title {
+    display:block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #536872;
+}
+.service-component i {
+    padding: 20px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #e5ebf5;
+    width: 70px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #536872;
+    background-color: #e5ebf5;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.service-component i:hover {
+    background: #536872;
+    color: #ffffff;
+    border-color:  #536872;
+    text-decoration: none;
+}
+
 /* -------------------FOOTER-*/
 
 footer{
@@ -115,32 +208,20 @@ footer{
     margin-top: 15px;
 }
 
-.sm-icon {
-    width: 32px;
-    height: 32px;
-    padding: 6px 4px 4px 4px;
-    margin: 2px;
-    border-radius: 50%;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #536872;
-    background-color: #abbad2;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
+
 
 .footer-item1{
     text-align: right;
     margin-top: 15px;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
 }
 
 .footer-item2{
     text-align: left;
     margin-top: 0px;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
 }
 .registration-detail{
     margin: 0;
