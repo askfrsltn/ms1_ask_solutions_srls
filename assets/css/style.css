@@ -36,8 +36,8 @@ body{
 .language-item {
     width: 28px;
     height: 28px;
-    padding: 5px;
-    margin: 1px;
+    padding: 4px 4px 4px 6px;
+    margin: 2px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 20px;
@@ -86,9 +86,15 @@ a h6:hover{
     background-color: #ababab;
 }
 
-/* -------------------content-section-*/
+/* -------------------CONTENT-SECTION-*/
 
-
+.title{
+    font-family: "Exo",sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #536872;
+    margin-top: 8px;
+}
 /* -------------------FOOTER-*/
 
 footer{
@@ -100,18 +106,19 @@ footer{
 }
 
 .footer-content{
-    padding: 20px;
+    padding: 5px;
 }
 
 .social-media-box {
     text-align: center;
     margin: 0;
+    margin-top: 15px;
 }
 
 .sm-icon {
     width: 32px;
     height: 32px;
-    padding: 5px;
+    padding: 6px 4px 4px 4px;
     margin: 2px;
     border-radius: 50%;
     font-size: 20px;
@@ -126,7 +133,15 @@ footer{
     -o-transition: all 0.35s ease-in-out;
 }
 
-.sm-icon:hover{
-    background: #536872;
-    color: #ffffff;
+.footer-item1{
+    text-align: right;
+    margin-top: 15px;
+}
+
+.footer-item2{
+    text-align: left;
+    margin-top: 0px;
+}
+.registration-detail{
+    margin: 0;
 }
