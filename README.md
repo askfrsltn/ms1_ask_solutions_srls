@@ -3,8 +3,7 @@
 ## **Content**
 
 ### **INTRODUCTION TO THE PROJECT**
-* The purpose of the site is to promote and provide clear description of 
-what My Company  ASK for Solution is dealing with. 
+* The purpose of the site is to promote my consulting services company "ASK SOLUTIONS" to potential service buyer and to convince the user to make a first contact
 * The link to the website: "##"
 
 ### **1. User Experience (UX)**
@@ -18,24 +17,26 @@ what My Company  ASK for Solution is dealing with.
 * text
 
 #### 1.3 Returning Visitor Goals
-* text
-* text
+* Show to other users/my potential client the credentials of the company and examples of the product (service) that I implemented in the past.
+* Contact me after the right time came.
 
 #### 1.4 Frequent User Goals
-* text
-* text
+* Understand how the product works, use the link to the product to demonstrate it to other potential buyers
+* Use the site as an example to build his own website
 
 ### **2. Design**
 #### 2.1 Colour Scheme
-* Color 1
-* Color 2
+* I used 3 colos: 
+**Dark grey, 
+**Light Grey and 
+**Orange
 
 #### 2.2 Typography
-* text
+* I used 2 fonts: Exo for Headings and Lato - for regular text. Exo looks simple,professional yet has own unique style, whyle Lato is easy to read.
+*I tried to use thin style of font-weight (300)
 
 #### 2.3 Images
 * the original license free hero-image source: https://wallpaperscraft.com/download/minimalism_circles_reflections_light_dark_intuition_93161/1920x1080
-
 
 ### **3. Wireframes**
 * Home Page Wireframe - View
@@ -43,14 +44,20 @@ what My Company  ASK for Solution is dealing with.
 * Contact Us Page Wireframe - View
 
 ### **4. Features**
-* text
+* Jumbotron for contact me
+* Carousel for Product and credentials page
+* google maps images
+* buttons form bootstrap.
 
 ### **5. Technologies Used**
-* text
+* I use google inspect
+* I used VIdeo
+* for product I use pictures linked to live google-site website linked to Business Analytics engine.
 
 #### 5.1 Languages Used
 * HTML5
-* CSS
+* CSS3 - Grid, Flexbox
+* JavaScript embedded into bootstrap solutions
 
 #### 5.2 Frameworks,Libraries& Programs Used
 * **Bootstrap 4.4.1**: Bootstrap was used to assist with the responsiveness and styling of the website.
