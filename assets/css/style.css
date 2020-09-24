@@ -8,13 +8,10 @@ hr{
     margin: 0;
 }
 
-body{
-    font-family: "Lato",sans-serif;
-    font-weight: 400;
-    color: #536872;
+h2{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
 }
-
-
 /* -------------------HEADER-*/
 
 .logo{
@@ -46,7 +43,7 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     color: #536872;
-    background-color: #abbad2;
+    background-color: #e5ebf5;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -105,7 +102,7 @@ a h6:hover{
 }
 
 .btn:hover{
-    background-color: #ababab;
+    background-color: #e5ebf5;
 }
 
 /* -------------------HOME:CONTENT-SECTION-*/
@@ -113,9 +110,10 @@ a h6:hover{
 .title{
     font-family: "Exo",sans-serif;
     text-transform: uppercase;
-    font-weight: 300;
-    color: #abbad2;
+    font-weight: 200;
+    color: #000000;
     margin-top: 15px;
+    margin-left:20px;
 }
 
 .hero-image{
@@ -133,7 +131,7 @@ a h6:hover{
     font-family: "Exo",sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-weight:300;
+    font-weight:200;
     color: #536872;
     margin-top: 15px;
 }
@@ -142,7 +140,7 @@ a h6:hover{
     text-align: center;
     font-family:"Lato", sans-serif;
     font-weight:300;
-    margin-top:40px;
+    margin-top:70px;
 }
 
 .four-components{
@@ -157,6 +155,7 @@ a h6:hover{
     height: 100px;
     text-align: center;
     margin-top: 10px;
+    margin-right: 0;
     border-color: #fafafac2;
     width: 23%;
 }
@@ -190,10 +189,59 @@ a h6:hover{
     -o-transition: all 0.35s ease-in-out;
 }
 .service-component i:hover {
-    background: #536872;
+    background: #ff6600;
     color: #ffffff;
-    border-color:  #536872;
+    border-color:  #ff6600;
     text-decoration: none;
+}
+/* -------------------CREDENTIALS:CONTENT-SECTION-*/
+.vl{
+  border-left: 1px solid #e5ebf5;
+  height: 500px;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.contentsection-list{
+    padding: 5px;
+}
+
+.contentsection-details{
+    padding: 5px;
+}
+
+.list-section{
+    padding: 10px;
+}
+
+.cred-list-item{
+    padding: 10px;
+}
+
+.cred-list-icon{
+    padding: 2px;
+    margin: 0;
+    border-radius: 50%;
+    font-size: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #abbad2;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+/*--  link to carousel activate when image change
+.cred-list-icon:hover {
+    color: #ff6600;
+}
+--*/
+.cred-list-title{
+    line-height:1;
+    padding-right: 0;
+    color: #abbad2;
 }
 
 /* -------------------FOOTER-*/
