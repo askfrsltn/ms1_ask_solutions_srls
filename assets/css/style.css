@@ -3,6 +3,10 @@
 
 
 /* -------------------GENERAL-*/
+header{
+    position: absolute;
+    top: 0;
+}
 
 hr{
     margin: 0;
@@ -248,8 +252,6 @@ a h6:hover{
 
 footer{
     margin:0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 70px;
 }
