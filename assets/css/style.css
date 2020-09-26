@@ -11,6 +11,7 @@ body{
 header{
     position: fixed;
     top: 0;
+    background-color: #000000;
 }
 
 header hr {
@@ -221,18 +222,18 @@ a h6:hover{
 .service-component i:hover {
     background: #abbad2;
     color: #ffffff;
-    border-color:  #aabbbb;
+    border-color:  #abbad2;
     text-decoration: none;
 }
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
 -------------------------------------------------------------------------------------------*/
-.case-subtitle {
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
+h6.case-subtitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-size:12px; 
-    color: #abbad2;
+    color: #ff6600;
 }
 h6 p{
     color: #536872;
@@ -259,9 +260,7 @@ h6 p{
 button span i {
     color: #abbad2
 }
-.case-subtitle {
-    text-align: left;
-}
+
 .case-image{
     padding: 5px;
     width: 80%;
