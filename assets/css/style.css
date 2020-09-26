@@ -2,7 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/* -------------------GENERAL-*/
+/* -------------------GENERAL SETTINGS------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+body{
+    height: 100%;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -18,7 +23,7 @@ div hr {
     margin-bottom: 0;
     margin-top: 0;
 }
-hr {
+hr{
     padding: 0;
     margin: 0;
     margin-top: 0;
@@ -28,7 +33,12 @@ h2{
     font-family: "Exo", sans-serif;
     font-weight: 300;
 }
-/* -------------------HEADER-*/
+
+article{
+    80%
+}
+/* -------------------HEADER-----------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
 
 .logo{
     padding: 5px;
@@ -100,15 +110,6 @@ a h6:hover{
     font-weight: 500;
     color: #536872;
 }
-.card {
-    padding-bottom: 5px;
-    margin-top: 15px;
-    margin-bottom:0px;
-
-}
-.card-header {
-    padding: 0;
-}
 
 #btn-contact{
     background-color:#ff6600;
@@ -119,24 +120,13 @@ a h6:hover{
     margin-right:20px;
     height: 40px;
     text-align: right;
-    transition:.15s ease-in-out;
-    transition: color .15s ease-in-out;
-    background-color .15s ease-in-out;
-    border-color .15s ease-in-out;
-    box-shadow .15s ease-in-out;
-    
 }
 
-
-.btn:hover{
-    background-color: #e5ebf5;
-    color: #536872;
-}
-
-/* -------------------HOME:CONTENT-SECTION-*/
+/* -------------------HOME-CONTENT-SECTION------------------------------------------------
+-------------------------------------------------------------------------------------------*/
 
 .title{
-    font-family: "Exo",sans-serif;
+    font-family: "Exo", sans-serif;
     text-transform: uppercase;
     font-weight: 200;
     color: #000000;
@@ -154,7 +144,9 @@ a h6:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.content-section{
+    height: 50%;
+}
 .rsection-description{
     font-family: "Exo",sans-serif;
     text-transform: uppercase;
@@ -205,8 +197,8 @@ a h6:hover{
     border-radius: 50%;
     border: 1px solid;
     border-color: #e5ebf5;
-    width: 70px;
-    font-size: 30px;
+    width: 65px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: #536872;
@@ -218,12 +210,24 @@ a h6:hover{
 }
 
 .service-component i:hover {
-    background: #ff6600;
+    background: #abbad2;
     color: #ffffff;
-    border-color:  #ff6600;
+    border-color:  #aabbbb;
     text-decoration: none;
 }
-/* -------------------CREDENTIALS:CONTENT-SECTION-*/
+/* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
+-------------------------------------------------------------------------------------------*/
+
+.card {
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom:0px;
+
+}
+.card-header {
+    padding: 0;
+}
+
 #credentials-item{
     text-align: center;
 }
@@ -241,12 +245,10 @@ button span i {
     border: 1px solid;
     border-color: #abbad2;
 }
-/* -------------------FOOTER-*/
+/* -------------------FOOTER-----------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
 
 footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
     padding: 5px;
     background-color:#ffffff;
     width: 100%;
