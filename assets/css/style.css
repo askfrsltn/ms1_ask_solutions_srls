@@ -139,6 +139,30 @@ a h6:hover{
 
 
 
+/* -------------------HOME-FLEXCONTENT-SECTION------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+
+.flexbox-content{
+    display: flex;
+    align-items: flex-center;
+    justify-content: space-around;
+}
+
+.flexcontent-hero{
+    flex:1;
+}
+.flexcontent-description{
+    flex:2;
+}
+.flexbox-componets{
+    display: flex;
+}
+.flexcomponet-icon{
+    flex: 1;
+    list-style: none;
+}
+
+
 /* -------------------HOME-CONTENT-SECTION------------------------------------------------
 -------------------------------------------------------------------------------------------*/
 
@@ -149,21 +173,19 @@ a h6:hover{
     color: #000000;
     margin-top: 15px;
     margin-left:20px;
+    border-bottom: solid 1px #e5ebf5;
 }
 
 .hero-image{
-    min-height: 380px;
+    min-height: 100%;
     width: 100%;
-    border-radius: 10px;
-    margin-left: 0px;
-    margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.content-section{
-    height: 50%;
-}
+
 .rsection-description{
     font-family: "Exo",sans-serif;
     text-transform: uppercase;
@@ -220,7 +242,7 @@ a h6:hover{
     text-decoration: none;
     color: #536872;
     background-color: #e5ebf5;
-    transition: all 0.35s ease-in-out;
+    transition: all 5s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -315,6 +337,7 @@ div iframe{
 -------------------------------------------------------------------------------------------*/
 .flex-footer{
     display: flex;
+    justify-content: flex-end;
 }
 
 .flexfooter-box1{
@@ -367,4 +390,24 @@ footer{
 
 .registration-detail{
     margin: 0;
+}
+/* -------------------TRAINING-DELETE-----------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+
+.hidden-menu{
+    display: flex;
+    text-align: center;
+}
+.hiddenmenu-p{
+    margin-bottom: 0;
+    flex: 1;
+    width: 250px;
+}
+
+.card-hidden{
+    padding: 5px;
+    margin: 0;
+    width: 250px;
+    border: solid 1px #e5ebf5;
+    flex: 1;
 }
