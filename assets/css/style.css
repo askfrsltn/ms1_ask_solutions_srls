@@ -98,6 +98,14 @@ article{
   color: #abbad2;
 }
 
+.btn-primary{
+    background-color: #ff6600;
+    border-color: #ff6600;
+    font-family: "Exo", sans-serif;
+    text-transform: capitalize;
+}
+
+
 .col-4 .nav {
     margin-right: 10px;
 }
@@ -120,16 +128,7 @@ a h6:hover{
     color: #536872;
 }
 
-#btn-contact{
-    background-color:#ff6600;
-    color: #ffffff;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-right:20px;
-    height: 40px;
-    text-align: right;
-}
+
 
 /* -------------------HOME-CONTENT-SECTION------------------------------------------------
 -------------------------------------------------------------------------------------------*/
@@ -267,6 +266,41 @@ button span i {
     border-color: #abbad2;
 }
 
+/* -------------------CONTACT PAGE-----------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+div iframe{
+    width:80%; 
+    margin: auto;
+}
+.address-title{
+    margin-top: 10px;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.center-form {
+    margin-top: 10px;
+    margin: auto;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    text-align: center;
+    min-width: 80%;
+
+}
+
+.form-title{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    width:100%;
+    margin-bottom: 36px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
 /* -------------------FOOTER-----------------------------------------------------------------
 -------------------------------------------------------------------------------------------*/
 
