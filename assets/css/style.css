@@ -36,6 +36,7 @@ h6{
 
 .flexheader-logo{
     flex:1;
+    text-align: left;
 }
 
 .flexheader-language{
@@ -81,8 +82,9 @@ h6{
     text-decoration: none;
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    color: #536872;
+    color: #183f45;
     background-color: #e5ebf5;
+    border: solid .5px #4e676e;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -90,21 +92,22 @@ h6{
 }
 
 .language-item:hover {
-    background: #536872;
+    background: #183f45;
     color: #ffffff;
 }
 
 .active {
   border-bottom: 1px solid;
+  color: #183f45;
 }
 
 .inactive {
-  color: #abbad2;
+  color: #d9dedf;
 }
 
 .btn-primary{
-    background-color: #ff6600;
-    border-color: #ff6600;
+    background-color: #e96541;
+    border-color: #e96541;
     font-family: "Exo", sans-serif;
     text-transform: capitalize;
     margin-bottom: 10px;
@@ -128,13 +131,13 @@ li.list-inline-item{
 a h6{
     font-family: "Lato",sans-serif;
     font-weight: 400;
-    color: #536872;
+    color: #183f45;
     text-align: right;
 }
 
 a h6:hover{
     font-weight: 500;
-    color: #536872;
+    color: #183f45;
 }
 
 
@@ -150,6 +153,7 @@ a h6:hover{
 
 .flexcontent-hero{
     flex:1;
+    
 }
 .flexcontent-description{
     flex:2;
@@ -157,6 +161,7 @@ a h6:hover{
 .flexbox-componets{
     display: flex;
 }
+
 .flexcomponet-icon{
     flex: 1;
     list-style: none;
@@ -170,16 +175,16 @@ a h6:hover{
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
     font-weight: 200;
-    color: #000000;
+    color: #183f45;
     margin-top: 15px;
     margin-left:20px;
-    border-bottom: solid 1px #e5ebf5;
+    border-bottom: solid 1px #d9dedf;
 }
 
 .hero-image{
-    min-height: 100%;
+    min-height: 200%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,7 +196,7 @@ a h6:hover{
     text-transform: uppercase;
     text-align: center;
     font-weight:200;
-    color: #536872;
+    color: #183f45;
     margin-top: 15px;
 }
 
@@ -228,20 +233,20 @@ a h6:hover{
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #536872;
+    color: #183f45;
 }
 .service-component i {
     padding: 20px;
     margin: 1px;
     border-radius: 50%;
-    border: 1px solid;
-    border-color: #e5ebf5;
+    border: .5px solid;
+    border-color:#183F45;
     width: 65px;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: #536872;
-    background-color: #e5ebf5;
+    background-color: rgba(0,0,0,.1);
     transition: all 5s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -249,9 +254,9 @@ a h6:hover{
 }
 
 .service-component i:hover {
-    background: #abbad2;
+    background: #4e676e;
     color: #ffffff;
-    border-color:  #abbad2;
+    border-color:  #4e676e;
     text-decoration: none;
 }
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
@@ -262,10 +267,10 @@ h6.case-subtitle {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size:12px; 
-    color: #ff6600;
+    color: #e96541;
 }
 h6 p{
-    color: #536872;
+    color: #183f45;
 }
 
 .card {
@@ -284,21 +289,36 @@ h6 p{
 .credentials-image{
     max-height: 400px;
     border: 1px solid;
-    border-color: #abbad2;
+    border-color: #4e676e;
 }
 button span i {
-    color: #abbad2
+    color: #4e676e
 }
 
 .case-image{
     padding: 5px;
     width: 80%;
     border: 1px solid;
-    border-color: #abbad2;
+    border-color: #4e676e;
+}
+
+/* -------------------FLEXBOX CONTACT MAP AND FORM PAGE-----------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+
+
+.flexcontent-map{
+    flex: 1;
+    order:2;
+
+}
+
+.flexcontent-form{
+    flex:1;
+    order:1;
 }
 
 /* -------------------CONTACT PAGE-----------------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------------------------*/e
 div iframe{
     width:80%; 
     margin: auto;
@@ -317,7 +337,6 @@ div iframe{
     font-weight: 700;
     text-align: center;
     min-width: 80%;
-
 }
 
 .form-title{
@@ -391,53 +410,63 @@ footer{
 .registration-detail{
     margin: 0;
 }
-/* -------------------TRAINING-DELETE-----------------------------------------------------------------
+/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION--------------------------------------------------
 -------------------------------------------------------------------------------------------*/
 
-.special-button{
+.btn-group{
+    margin-top: -30px;
     display: flex;
-    margin-top: -20px;
+    margin-right: 40px;
+    margin-left: 20px;
 }
-.button1{
+.btn1{
     display: inline-block;
     font-weight: 400;
-    height: 50px;
-    width:50px;
+    height: 60px;
+    width:60px;
     padding: 6px, 8px,6px,8px;
     color: #fff;
     text-align: center;
-    background-color: #ff6600;
-    border: 1px solid #ff6600;
-    border-radius: 20px;
+    background-color: #e96541;
+    border: 1px solid #e96541;
+    border-radius: 50%;
     line-height: 1.5;
 }
 
-button1-primary {
-    background-color: #ff6600;
+.btn-secondary {
+    background-color: #e96541;
     font-family: "Exo", sans-serif;
     text-transform: capitalize;
     margin-bottom: 10px;
     font-size: 16px;
 }
-
-.button1:hover {
-    background-color: #e5ebf5;
-    border-radius: 100px;
-    border: solid 1px #e5ebf5;
-    color: #536872;
+.btn-secondary:focus{
+    border-color: none;
 }
+
+.btn:hover {
+    background-color: #d9dedf;
+    border-radius: 100px;
+    border: solid 1px #d9dedf;
+}
+
 button:focus{
     outline: none;
 }
 
-div.dropdown-menu.show{
-    margin-right: 100px;
-    min-width:200px;
+.dropdown-menu{
+    min-width:300px;
+    min-height:50%;
+    
 }
+
 .dropdown-item{
     text-align: center;
     margin: 0;
     padding: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #183f45;
 }
 
 @media(max-width:800px){
