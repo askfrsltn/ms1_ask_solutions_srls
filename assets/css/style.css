@@ -95,6 +95,9 @@ h6{
 @media(max-width:800px){
     #desktop{display: none;}
     #mobile{display: block;}
+    h1.title{margin-top:-15px;
+    text-align: center;
+    }
 }
 
 @media(min-width:801px){
@@ -215,59 +218,8 @@ a h6:hover{
     color: #183f45;
 }
 
-
-
-/* -------------------FLEXBOX-FOOTER---------------------------------------------------------
+/* -------------------HOME-SECTION------------------------------------------------
 ------------------------------------------------------------------------------------------*/
-.conteiner-1{
-    display:inline-block;
-    position: fixed;
-    bottom:0;
-    left: 0;
-    width: 30%;
-}
-
-.box1{
-    flex:2;
-}
-
-.box2{
-    flex:1;
-}
-
-.box3{
-    flex:1;
-}
-
-/* -------------------HOME-FLEXCONTENT-SECTION------------------------------------------------
-------------------------------------------------------------------------------------------
-
-.flexbox-content{
-    display: flex;
-    align-items: flex-center;
-    justify-content: space-around;
-}
-
-.flexcontent-hero{
-    flex:1;
-    
-}
-.flexcontent-description{
-    flex:2;
-}
-.flexbox-componets{
-    display: flex;
-}
-
-.flexcomponet-icon{
-    flex: 1;
-    list-style: none;
-}
-
-
-/* -------------------HOME-CONTENT-SECTION------------------------------------------------
-------------------------------------------------------------------------------------------
-
 .title{
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
@@ -282,7 +234,7 @@ a h6:hover{
     min-height: 200%;
     width: 100%;
     border-radius: 40px;
-    padding: 10px;
+    padding: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,11 +254,13 @@ a h6:hover{
     font-family:"Lato", sans-serif;
     font-weight:400;
     margin-top:70px;
+    margin-bottom:20px;
 }
 
 .four-components{
         font-size: 25px;
         padding-top:20px;
+        margin-bottom: 96px;
         width: 100%;
 }
 .four-components h6{
@@ -357,7 +311,7 @@ a h6:hover{
     text-decoration: none;
 }
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
--------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
 h6.case-subtitle {
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -399,24 +353,10 @@ button span i {
     border-color: #4e676e;
 }
 
-/* -------------------FLEXBOX CONTACT MAP AND FORM PAGE-----------------------------------------------------------------
--------------------------------------------------------------------------------------------
-
-
-.flexcontent-map{
-    flex: 1;
-    order:2;
-
-}
-
-.flexcontent-form{
-    flex:1;
-    order:1;
-}
-
 /* -------------------CONTACT PAGE-----------------------------------------------------------------
--------------------------------------------------------------------------------------------
-div iframe{
+-------------------------------------------------------------------------------------------*/
+
+div .iframe{
     width:80%; 
     margin: auto;
 }
@@ -448,33 +388,10 @@ div iframe{
 .form-control{
     margin-bottom: 10px;
 }
-
-/* -------------------FLEXBOX-FOOTER---------------------------------------------------------
-------------------------------------------------------------------------------------------
-.flex-footer{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.flexfooter-box1{
-    flex:1;
-}
-
-.flexfooter-box2{
-    flex:1;
-}
-
-.flexfooter-box3{
-    flex:1;
-}
-
-/* -------------------FOOTER-----------------------------------------------------------------
-------------------------------------------------------------------------------------------
-
+/* -------------------FOOTER--------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
 footer{
-    position:fixed;
-    bottom: 0;
-    left: 0;
+    position: absolute;
     padding: 5px;
     background-color:#ffffff;
     width: 100%;
@@ -507,3 +424,30 @@ footer{
 .registration-detail{
     margin: 0;
 }
+/* -------------------FLEX-FOOTER--------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+.flex-footer{
+    display:flex;
+    align-items:center;
+}
+
+.flexfooter-box1{
+    flex:2;
+}
+
+.flexfooter-box2{
+    flex:3;
+}
+
+.flexfooter-box3{
+    flex:2;
+}
+
+.flexfooter-button{
+    flex:2;
+    order: 2;
+    text-align: center;
+    margin-top: 0;
+}
+
