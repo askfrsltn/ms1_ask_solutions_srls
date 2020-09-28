@@ -1,0 +1,102 @@
+1. add desktop id to header button and nav menu on each page
+2. add the button below to each page.
+3. Redesign all the html tags to make grid compatible.
+4. home page will be scrolling dow. not 1 page with hero image.
+
+
+<!--------------------- CSS codes for responsive element --
+--------------------------------------------------------------------------->
+
+.btn-group{
+    margin-top: -30px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.btn1{
+    display: inline-block;
+    font-weight: 400;
+    height: 60px;
+    width:60px;
+    padding: 6px, 8px,6px,8px;
+    color: #fff;
+    text-align: center;
+    background-color: #e96541;
+    border: 1px solid #e96541;
+    border-radius: 50%;
+    line-height: 1.5;
+}
+
+.btn-secondary {
+    background-color: #e96541;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.btn-secondary:focus .btn-secondary:active{
+    border-color: none;
+    background-color: #e96541;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-secondary:hover {
+    background-color: #e96541;
+    border-radius: 100px;
+    border-color: #e96541;
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown-menu{
+    min-width:350px;
+    min-height:100%;
+    
+}
+
+.dropdown-item{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #183f45;
+}
+
+@media(max-width:800px){
+    #desktop{display: none;}
+    #mobile{display: block;}
+}
+
+@media(min-width:801px){
+    #desktop{display: block;}
+    #mobile{display: none;}
+
+    
+<!--------------------- hide button  for mobile --
+--------------------------------------------------------------------------->
+
+<html>
+<div id="mobile" class="offset-8">
+                <div class="btn-group">
+                    <button type="button" class="btn1 btn-secondary" data-toggle="dropdown" 
+                    data-display="static" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-plus"></i>
+                    </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item"  type="button"><a href="index.html">
+                    <h3 style="color:#183f45;">Home</h3></a></button>
+                    <button class="dropdown-item"  type="button"><a href="credentials.html">
+                    <h3 style="color:#183f45;">Credentials</h3></a></button>
+                    <button class="dropdown-item"  type="button"><a href="products.html">
+                    <h3 style="color:#183f45;">Products</h3></a></button>
+                    <button class="dropdown-item"  type="button"><a href="faq.html">
+                    <h3 style="color:#183f45;">FAQ</h3></a></button>
+                    <button class="dropdown-item"  type="button"><a href="contact.html">
+                    <h3 style="color:#e96541;">Ask us</h3></a></button>
+                </div>
+                </div>
+            </div>
+</html>
+

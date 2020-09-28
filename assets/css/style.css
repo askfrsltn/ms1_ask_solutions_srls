@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+
 /* -------------------GENERAL SETTINGS------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+-----------------------------------------------------------------------------------------*/
 body{
     height: 100%;
 }
@@ -27,8 +28,82 @@ h6{
     line-height: 1.5;
 
 }
-/* -------------------FELXBOX-HEADER---------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+
+/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION--------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+.btn-group{
+    margin-top: -30px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+#mobile{
+    padding-left: 10px;
+}
+.btn1{
+    display: inline-block;
+    font-weight: 400;
+    height: 60px;
+    width:60px;
+    padding: 6px, 8px,6px,8px;
+    color: #fff;
+    text-align: center;
+    background-color: #e96541;
+    border: 1px solid #e96541;
+    border-radius: 50%;
+    line-height: 1.5;
+}
+
+.btn-secondary {
+    background-color: #e96541;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.btn-secondary:focus .btn-secondary:active{
+    border-color: none;
+    background-color: #e96541;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-secondary:hover {
+    background-color: #e96541;
+    border-radius: 100px;
+    border-color: #e96541;
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown-menu{
+    min-width:350px;
+    min-height:100%;
+    
+}
+
+.dropdown-item{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #183f45;
+}
+
+@media(max-width:800px){
+    #desktop{display: none;}
+    #mobile{display: block;}
+}
+
+@media(min-width:801px){
+    #desktop{display: block;}
+    #mobile{display: none;}
+}
+
+/* -------------------FlexBOX-HEADER---------------------------------------------------------
+-----------------------------------------------------------------------------------------*/
 .flex-header{
     display: flex;
     align-items:flex-end;
@@ -53,18 +128,18 @@ h6{
     text-align: center;
 }
 /* -------------------HEADER-----------------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+-----------------------------------------------------------------------------------------*/
 
 .logo{
     padding: 5px;
     height: 70px;  
-    margin-left: 20%;
+    margin-left: 10%;
     border-radius: 20%;
     text-align: right;
 }
 
 .languages{
-    padding:0;
+    margin-left:10px;
     text-align:left;
     padding-left: 0;
     margin-bottom: 8px;
@@ -73,7 +148,7 @@ h6{
 .language-item {
     width: 32px;
     height: 32px;
-    padding: 6px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
     margin: 1px;
     border-radius: 50%;
     font-size: 15px;
@@ -142,8 +217,30 @@ a h6:hover{
 
 
 
+/* -------------------FLEXBOX-FOOTER---------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+.conteiner-1{
+    display:inline-block;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 30%;
+}
+
+.box1{
+    flex:2;
+}
+
+.box2{
+    flex:1;
+}
+
+.box3{
+    flex:1;
+}
+
 /* -------------------HOME-FLEXCONTENT-SECTION------------------------------------------------
--------------------------------------------------------------------------------------------*/
+------------------------------------------------------------------------------------------
 
 .flexbox-content{
     display: flex;
@@ -169,7 +266,7 @@ a h6:hover{
 
 
 /* -------------------HOME-CONTENT-SECTION------------------------------------------------
--------------------------------------------------------------------------------------------*/
+------------------------------------------------------------------------------------------
 
 .title{
     font-family: "Exo", sans-serif;
@@ -260,7 +357,7 @@ a h6:hover{
     text-decoration: none;
 }
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
--------------------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------------------------
 h6.case-subtitle {
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -303,7 +400,7 @@ button span i {
 }
 
 /* -------------------FLEXBOX CONTACT MAP AND FORM PAGE-----------------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------------------------
 
 
 .flexcontent-map{
@@ -318,7 +415,7 @@ button span i {
 }
 
 /* -------------------CONTACT PAGE-----------------------------------------------------------------
--------------------------------------------------------------------------------------------*/e
+-------------------------------------------------------------------------------------------
 div iframe{
     width:80%; 
     margin: auto;
@@ -353,7 +450,7 @@ div iframe{
 }
 
 /* -------------------FLEXBOX-FOOTER---------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+------------------------------------------------------------------------------------------
 .flex-footer{
     display: flex;
     justify-content: flex-end;
@@ -372,7 +469,7 @@ div iframe{
 }
 
 /* -------------------FOOTER-----------------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+------------------------------------------------------------------------------------------
 
 footer{
     position:fixed;
@@ -409,72 +506,4 @@ footer{
 
 .registration-detail{
     margin: 0;
-}
-/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION--------------------------------------------------
--------------------------------------------------------------------------------------------*/
-
-.btn-group{
-    margin-top: -30px;
-    display: flex;
-    margin-right: 40px;
-    margin-left: 20px;
-}
-.btn1{
-    display: inline-block;
-    font-weight: 400;
-    height: 60px;
-    width:60px;
-    padding: 6px, 8px,6px,8px;
-    color: #fff;
-    text-align: center;
-    background-color: #e96541;
-    border: 1px solid #e96541;
-    border-radius: 50%;
-    line-height: 1.5;
-}
-
-.btn-secondary {
-    background-color: #e96541;
-    font-family: "Exo", sans-serif;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-.btn-secondary:focus{
-    border-color: none;
-}
-
-.btn:hover {
-    background-color: #d9dedf;
-    border-radius: 100px;
-    border: solid 1px #d9dedf;
-}
-
-button:focus{
-    outline: none;
-}
-
-.dropdown-menu{
-    min-width:300px;
-    min-height:50%;
-    
-}
-
-.dropdown-item{
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #183f45;
-}
-
-@media(max-width:800px){
-    #desktop{display: none;}
-    #mobile{display: block;}
-}
-
-@media(min-width:801px){
-    #desktop{display: block;}
-    #mobile{display: none;}
 }
