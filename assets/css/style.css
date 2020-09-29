@@ -93,11 +93,10 @@ h6{
 }
 
 @media(max-width:800px){
-    #desktop{display: none;}
-    #mobile{display: block;}
-    h1.title{margin-top:-15px;
-    text-align: center;
-    }
+    #desktop {display: none;}
+    #mobile {display: block;}
+    h1.title {margin-top:-15px;text-align: center;}
+    .address-title {border-top:1px s olid #e5ebf5;}
 }
 
 @media(min-width:801px){
@@ -233,7 +232,7 @@ a h6:hover{
 .hero-image{
     min-height: 200%;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 5px;
     background-position: center;
     background-repeat: no-repeat;
@@ -259,8 +258,8 @@ a h6:hover{
 
 .four-components{
         font-size: 25px;
-        padding-top:20px;
-        margin-bottom: 96px;
+        padding:40px;
+        margin-bottom: 40px;
         width: 100%;
 }
 .four-components h6{
@@ -304,6 +303,7 @@ a h6:hover{
     -o-transition: all 0.35s ease-in-out;
 }
 
+
 .service-component i:hover {
     background: #4e676e;
     color: #ffffff;
@@ -312,14 +312,7 @@ a h6:hover{
 }
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
 -------------------------------------------------------------------------------------------*/
-h6.case-subtitle {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size:12px; 
-    color: #e96541;
-}
+
 h6 p{
     color: #183f45;
 }
@@ -353,17 +346,25 @@ button span i {
     border-color: #4e676e;
 }
 
+h6.case-subtitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size:12px; 
+    color: #e96541;
+}
+
 /* -------------------CONTACT PAGE-----------------------------------------------------------------
 -------------------------------------------------------------------------------------------*/
-
 
 .address-title{
     padding: 10px;
     margin: 0 auto;
     text-align: center;
-    font-family: "Lato",sans-serif;
+    font-family:"Lato",sans-serif;
     font-weight: 700;
-    width:100%;
+    width: 100%;
     margin-bottom: 0px;
 }
 
@@ -405,6 +406,33 @@ form{
 .form-control{
     margin-bottom: 10px;
 }
+
+/* -------------------FLEX-FOOTER--------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+.flex-footer{
+    display:flex;
+    align-items:center;
+}
+
+.flexfooter-box1{
+    flex:2;
+}
+
+.flexfooter-box2{
+    flex:3;
+}
+
+.flexfooter-box3{
+    flex:2;
+}
+
+.flexfooter-button{
+    flex:2;
+    order: 2;
+    text-align: center;
+    margin-top: 0;
+}
 /* -------------------FOOTER--------------------------------------------------------------
 ------------------------------------------------------------------------------------------*/
 footer{
@@ -441,30 +469,3 @@ footer{
 .registration-detail{
     margin: 0;
 }
-/* -------------------FLEX-FOOTER--------------------------------------------------------------
-------------------------------------------------------------------------------------------*/
-
-.flex-footer{
-    display:flex;
-    align-items:center;
-}
-
-.flexfooter-box1{
-    flex:2;
-}
-
-.flexfooter-box2{
-    flex:3;
-}
-
-.flexfooter-box3{
-    flex:2;
-}
-
-.flexfooter-button{
-    flex:2;
-    order: 2;
-    text-align: center;
-    margin-top: 0;
-}
-
