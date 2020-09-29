@@ -356,15 +356,32 @@ button span i {
 /* -------------------CONTACT PAGE-----------------------------------------------------------------
 -------------------------------------------------------------------------------------------*/
 
-div .iframe{
-    width:80%; 
-    margin: auto;
-}
+
 .address-title{
-    margin-top: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
     font-family: "Lato",sans-serif;
     font-weight: 700;
+    width:100%;
+    margin-bottom: 0px;
+}
+
+.address-address{
     text-align: center;
+    padding-bottom:10px;
+    margin-bottom:0;
+}
+
+.iframe{
+    min-width:100%; 
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    max-width: 80%;
+    margin:auto;
 }
 
 .center-form {
