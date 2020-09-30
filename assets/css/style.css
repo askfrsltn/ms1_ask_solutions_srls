@@ -3,10 +3,29 @@
 
 
 
-/* -------------------GENERAL SETTINGS------------------------------------------------------
------------------------------------------------------------------------------------------*/
+/* -------------------GENERAL SETTINGS--------------------------------------*/
 body{
     height: 100%;
+}
+/*------to keep the footer at the bottom-*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header, main, footer {
+    flex-shrink: 0;
 }
 
 header{
@@ -29,13 +48,15 @@ h6{
 
 }
 
-/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION--------------------------------------------------
-------------------------------------------------------------------------------------------*/
+.decoration-none{
+    text-decoration:none;
+}
+/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION---------------------------*/
 
 .btn-group{
     margin-top: -30px;
     display: flex;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 40px;
 }
 #mobile{
@@ -104,8 +125,7 @@ h6{
     #mobile{display: none;}
 }
 
-/* -------------------FlexBOX-HEADER---------------------------------------------------------
------------------------------------------------------------------------------------------*/
+/* -------------------FlexBOX-HEADER----------------------------------------------*/
 .flex-header{
     display: flex;
     align-items:flex-end;
@@ -129,8 +149,7 @@ h6{
     flex:2;
     text-align: center;
 }
-/* -------------------HEADER-----------------------------------------------------------------
------------------------------------------------------------------------------------------*/
+/* -------------------HEADER-----------------------------------------------*/
 
 .logo{
     padding: 5px;
@@ -159,20 +178,37 @@ h6{
     text-decoration: none;
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    color: #183f45;
+    color: #4e676e;
     background-color: #e5ebf5;
     border: solid .5px #4e676e;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
+
+.language-item-active{
+    width: 32px;
+    height: 32px;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: #e5ebf5;
+    background-color:#e96541;
+    border: solid .5px #e96541  ;
+    transition: all 0.35s ease-in-out;
+} 
+
+/*--
 
 .language-item:hover {
     background: #183f45;
     color: #ffffff;
 }
-
+--*/
 .active {
   border-bottom: 1px solid;
   color: #183f45;
@@ -217,8 +253,7 @@ a h6:hover{
     color: #183f45;
 }
 
-/* -------------------HOME-SECTION------------------------------------------------
-------------------------------------------------------------------------------------------*/
+/* -------------------HOME-SECTION-----------------------------------------*/
 .title{
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
@@ -310,8 +345,7 @@ a h6:hover{
     border-color:  #4e676e;
     text-decoration: none;
 }
-/* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT------------------------------
--------------------------------------------------------------------------------------------*/
+/* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT--------------*/
 
 h6 p{
     color: #183f45;
@@ -355,8 +389,7 @@ h6.case-subtitle {
     color: #e96541;
 }
 
-/* -------------------CONTACT PAGE-----------------------------------------------------------------
--------------------------------------------------------------------------------------------*/
+/* -------------------CONTACT PAGE----------------------------------------------*/
 
 .address-title{
     padding: 10px;
@@ -407,12 +440,13 @@ form{
     margin-bottom: 10px;
 }
 
-/* -------------------FLEX-FOOTER--------------------------------------------------------------
-------------------------------------------------------------------------------------------*/
+/* -------------------FLEX-FOOTER--------------------------------*/
 
 .flex-footer{
     display:flex;
     align-items:center;
+    background-color:#4e676e;
+    color:#e5ebf5;
 }
 
 .flexfooter-box1{
@@ -433,10 +467,8 @@ form{
     text-align: center;
     margin-top: 0;
 }
-/* -------------------FOOTER--------------------------------------------------------------
-------------------------------------------------------------------------------------------*/
+/* -------------------FOOTER---------------------------------------*/
 footer{
-    position: absolute;
     padding: 5px;
     background-color:#ffffff;
     width: 100%;
@@ -468,4 +500,30 @@ footer{
 
 .registration-detail{
     margin: 0;
+}
+
+.icon-item {
+    width: 32px;
+    height: 32px;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: #183f45;
+    background-color: #e5ebf5;
+    border: solid .5px #4e676e;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.icon-item:hover {
+    background: #183f45;
+    color: #ffffff;
 }

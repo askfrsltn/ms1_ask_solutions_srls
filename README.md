@@ -9,12 +9,13 @@
 ### **1. User Experience (UX)**
 
 #### 1.1 User stories 
-* text
+* 1st visitor on mobile: Simple, red button not quite intuitive. I wanted to swipe it, it did not work, spend 
+few seconds to relise that I need to press red button.
 * text
 
 #### 1.2 First Time Visitor Goals
-* text
-* text
+* Have enough information to make a decision about contacting me.
+* FIll in contact information and ask the question from my company.
 
 #### 1.3 Returning Visitor Goals
 * Show to other users/my potential client the credentials of the company and examples of the product (service) that I implemented in the past.
@@ -36,7 +37,8 @@
 *I tried to use thin style of font-weight (300)
 
 #### 2.3 Images
-* the original license free hero-image source: https://wallpaperscraft.com/download/minimalism_circles_reflections_light_dark_intuition_93161/1920x1080
+* the original license free logo source: https://wallpaperscraft.com/download/minimalism_circles_reflections_light_dark_intuition_93161/1920x1080
+* hero-image was taken by myself in Bucharest, Romania during the project
 
 ### **3. Wireframes**
 * Home Page Wireframe - View
@@ -44,14 +46,17 @@
 * Contact Us Page Wireframe - View
 
 ### **4. Features**
-* Jumbotron for contact me
-* Carousel for Product and credentials page
-* google maps images
-* buttons form bootstrap.
+* Home page: logo - 
+* Home page: Navigation pane
+* Credentials: Carousel from https://fancyapps.com 
+* Footer: Dark as recommmended by mentor based on recognised UXD practices
+google maps images
+* buttons from bootstrap.
+
 
 ### **5. Technologies Used**
-* I use google inspect
-* I used VIdeo
+* Google inspect
+* VIdeo
 * for product I use pictures linked to live google-site website linked to Business Analytics engine.
 
 #### 5.1 Languages Used
@@ -70,7 +75,19 @@
 * **Balsamiq**: Balsamiq was used to create the wireframes during the design processs
 
 #### 5.3 Other Sources of Inspiration (avoiding plagiarism)
-* text
+* Design Ideas: https://www.awwwards.com/, especially https://minasi.eu/
+* Coursera for accordion solution hint for products page (changed afterwards)
+* Dashlane add on the facebook for colors combination 
+* LABA educational site for simplicity of layout - my banchmark: https://my.l-a-b-a.com/
+* Screen Sizes: https://screensiz.es/monitor
+* *Best Modern & Contemporary Thin & Extra Light Fonts: https://www.colourmylearning.com/2018/01/best-modern-contemporary-thin-extra-light-fonts/
+* Problem solving:
+    - Deploying: https://www.codecademy.com/articles/f1-u3-github-pages
+    - Video on grid: https://www.youtube.com/watch?v=qmPmwdshCMw&ab_channel=Academind
+    - Fix the problem with images: https://stackoverflow.com/questions/42793292/how-to-load-image-and-other-assets-in-angular-an-project
+    - simple 3 step responsiveness article: https://www.webdesignersacademy.com/show-and-hide-different-content-on-mobile-devices-desktops/#universal
+    - base MD syntax - very helpfull for README file: https://www.markdownguide.org/basic-syntax/
+    - to keep the footer at the bottom: https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f
 
 ### **6. Testing**
 #### 6.1 W3C Markup Validator - Results (link)
@@ -84,7 +101,11 @@
 
 ### **7. Deployment**
 #### 7.1 GitHub Pages
-* The project was deployed to GitHub Pages using the following steps...
+* The project was deployed to GitHub Pages using the following steps:
+    - Step 1. Gitpod CLI: "git add ."
+    - Step 2. Gitpod CLI: git commit (actually 94 of them)
+    - Step 3. Gitpod CLI: git push
+    - Step 4. GitHub: inside repository, *Settings*-*Pages*-*Github pages* - select *Branch: master* - *save*
 
 ### **8. Credits**
 #### 8.1 Code
@@ -98,7 +119,7 @@
 * All content was written by the developer.
 
 ### **10. Media**
-* All Images were created by the developer.
+* Images provided by web-page author
 
 ### **11. Acknowledgements**
 * text
@@ -110,13 +131,30 @@
 * I wan to thank my mentor Ignatius Ukwuoma for:
 1. intro meeting: clear schedule that helped me to understand how to progress towards MS1.
 2. 1st Meeting (23-Sep-2020): Pointion out my potential UIX weaknesses while during Wireframes review, giving very specific advices how to cope with the challenges that I highlighted, giving me links to great sources that helped me to compensate some gaps in my skillset.
-
-
+3. Mid-review meeting: (30-sep-2020): 60% of the pogress vs 90% expected. Positive feedback about mobile version. Recommmendations to change desktop UXD.
+    - 20 recommendations:
+        1. **All**: Change footer color to dark and text light;
+        2. **All**: Read the article and make the footer at the bottom of the page;
+        3. **All**: Either remove the languages buttons or make EN active and make a popup for other languages that it is still in progress until it is done;
+        4. **All**: Make a brief summary on each page to explain what this page is about (Credentials, Products, FAQ);
+        5. **All**: make menu (nav) items more visible.
+        6. **Home**: Make the page more clickable, make icons in the middle look more like buttons;
+        7. **Home**: add 2 more columns below the icons to group them into 2 categories linking to Credentials and Products page;
+        8. **Home**: add short summary to each of the icons to explain what the user may expect when he clicks on it;
+        9. **Home** on the desktop: make FAQ page stand out, try to explain why the user wants to go to this page;
+        10. **Home**: Make a “call to action” section on the page;
+        11. **Credentials**: Change dropdown accordion to carousel, use fancyapps.com for that, improve user experience with images , add caption for each image;
+        12. **Credentials**: use “img-responsive” attribute to align images;
+        13. **Credentials**: Use https://fancyapps.com/fancybox/3/ for images;
+        14. **Products**: Make 1st case Open;
+        15. **Products**: Finalize content for all the cases
+        16. **Products**: Replace images with Quotes it makes more sense;
+        17. **Contact**: add sentence explaining what I am asking user to write me about;
+        18. **Contact**: add telephone, email etc. put both in footer and on the contact page;
+        19. **Coding**: Use more semantics on the code (article, main, section), adjust comments accordingly
+        20. **Coding**: Add more details when there is a specific component that needs to be explained
 #### 11.3 Special Thanks
-1. Screen Sizes: https://screensiz.es/monitor
-2. Design Ideas: https://www.awwwards.com/, especially https://minasi.eu/
-3. Font decisions: 
-* Best Modern & Contemporary Thin & Extra Light Fonts: https://www.colourmylearning.com/2018/01/best-modern-contemporary-thin-extra-light-fonts/
+Special thanks go to my family - my wife, my son, my daughter and my brother who supported and motivated me in my journey towards my first project.
 
 ## **PROJECT ASSESSMENT CRITEREA**
 ### **A. Pass Criterea**
