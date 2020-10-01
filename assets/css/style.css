@@ -48,8 +48,25 @@ h6{
 
 }
 
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
 .decoration-none{
     text-decoration:none;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+.text-red{
+    color: #e96541;
+    letter-spacing: 2px;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
 }
 /* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION---------------------------*/
 
@@ -209,13 +226,16 @@ h6{
     color: #ffffff;
 }
 --*/
+
 .active {
   border-bottom: 1px solid;
-  color: #183f45;
+  color: #e96541;
+  border-color: #e96541;
+
 }
 
 .inactive {
-  color: #d9dedf;
+  color: #183f45;
 }
 
 .btn-primary{
@@ -254,24 +274,32 @@ a h6:hover{
 }
 
 /* -------------------HOME-SECTION-----------------------------------------*/
+.white-section{
+    margin: 10px;
+    margin-top:0;
+    padding: 10px;
+    padding-top: 0;
+}
+
 .title{
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
     font-weight: 200;
     color: #183f45;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left:20px;
     border-bottom: solid 1px #d9dedf;
 }
 
 .hero-image{
-    min-height: 200%;
+    min-height: 100%;
     width: 100%;
     border-radius: 20px;
     padding: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: auto;
 }
 
 .rsection-description{
@@ -283,68 +311,52 @@ a h6:hover{
     margin-top: 15px;
 }
 
+.card.success-factors-item{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    border:#fafafa 1px solid;
+    border-radius: 20px;
+    background-color: #f6f9fb;
+    vertical-align:middle;
+}
+
 #rsection-aspects {
     text-align: center;
     font-family:"Lato", sans-serif;
     font-weight:400;
-    margin-top:70px;
+    margin-top:20px;
     margin-bottom:20px;
+    color: #e96541;
 }
 
-.four-components{
-        font-size: 25px;
-        padding:40px;
-        margin-bottom: 40px;
-        width: 100%;
-}
-.four-components h6{
-    margin-top: 5px;
-}
-.service-component{
-    height: 100px;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 0;
-    border-color: #fafafac2;
-    width: 23%;
+.greybackground-section{
+    background-color:#f6f9fb;
+    max-width: 100%;    
 }
 
 .service-component-title {
-    display:block;
-    width: 100%;
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #183f45;
+    color: #e96541;
 }
-.service-component i {
-    padding: 20px;
-    margin: 1px;
-    border-radius: 50%;
-    border: .5px solid;
-    border-color:#183F45;
-    width: 65px;
-    font-size: 20px;
+
+.card.service-component-item{
     text-align: center;
-    text-decoration: none;
-    color: #536872;
-    background-color: rgba(0,0,0,.1);
-    transition: all 5s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    border:#fafafa 1px solid;
+    border-radius: 20px;
+    background-color: #f6f9fb;
+    vertical-align:middle;
+    max-width: 20%;
+    margin: auto auto;
 }
 
 
-.service-component i:hover {
-    background: #4e676e;
-    color: #ffffff;
-    border-color:  #4e676e;
-    text-decoration: none;
-}
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT--------------*/
 
 h6 p{
