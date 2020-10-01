@@ -278,6 +278,7 @@ a h6:hover{
     margin: 10px;
     margin-top:0;
     padding: 10px;
+    padding-bottom:0px;
     padding-top: 0;
 }
 
@@ -314,7 +315,9 @@ a h6:hover{
 .card.success-factors-item{
     margin: auto;
     width: 90%;
+    height: 250px;
     padding: 10px;
+    margin-top: 10px;
     text-align: center;
     border:#fafafa 1px solid;
     border-radius: 20px;
@@ -331,9 +334,19 @@ a h6:hover{
     color: #e96541;
 }
 
+#arrow-down{
+    vertical-align: top;
+}
+svg.bi.bi-arrow-bar-down {
+    color: #183f45;
+    width: 1.2em;
+    height: 1.2em;
+}
+
 .greybackground-section{
     background-color:#f6f9fb;
-    max-width: 100%;    
+    max-width: 100%;  
+    padding: 8px;
 }
 
 .service-component-title {
@@ -344,16 +357,24 @@ a h6:hover{
     font-weight: 400;
     letter-spacing: 2px;
     color: #e96541;
+    margin: 10px;
 }
 
-.card.service-component-item{
+.service-component-item{
+    line-height: 1.5;
+    border-radius: 10px;
+    height: 200px;
+    max-width: 280px;
     text-align: center;
-    border:#fafafa 1px solid;
-    border-radius: 20px;
-    background-color: #f6f9fb;
-    vertical-align:middle;
-    max-width: 20%;
-    margin: auto auto;
+    vertical-align: middle;
+    background-color: #fafafa;
+    border-color: #fafafa
+}
+
+
+.component-icon{
+    font-size: 24px;
+    color: #183f45;
 }
 
 
