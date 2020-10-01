@@ -46,12 +46,24 @@ few seconds to relise that I need to press red button.
 * Contact Us Page Wireframe - View
 
 ### **4. Features**
-* Home page: logo - 
+* Home page: logo - https://wallpaper-house.com/wallpaper-id-30670.php
 * Home page: Navigation pane
 * Credentials: Carousel from https://fancyapps.com 
 * Footer: Dark as recommmended by mentor based on recognised UXD practices
-google maps images
-* buttons from bootstrap.
+* Google maps 
+* buttons from bootstrap
+* Colors:
+    - **Red carrot**: #e96541 - to highlight most important buttons and active elements, sourced from faceboo commercial Dashlane
+    - **dark-olive**: #183f45 - for main text, sourced from faceboo commercial Dashlane
+    - **Light-Grey**: #d9dedf - 
+    - **Light grey-blue**: #aec6cr - backgrounds for cards.
+    - **Grey background**: #f6f9fb - cards background, 
+    used to highlight important cards on the page and follow light and simple design concept
+    - **Grey-blue background** - background idea borrowed from https://iti.ca/en/contact/#form
+* Fonts:
+    - Exo weight 300 - mostly capitalized for headings
+    - Lato - for content text
+
 
 
 ### **5. Technologies Used**
@@ -75,7 +87,10 @@ google maps images
 * **Balsamiq**: Balsamiq was used to create the wireframes during the design processs
 
 #### 5.3 Other Sources of Inspiration (avoiding plagiarism)
-* Design Ideas: https://www.awwwards.com/, especially https://minasi.eu/
+* Design Ideas: 
+    - https://www.awwwards.com/ - benchmark for websites of different purposes.
+    - https://minasi.eu/ - simple yet effective business website focused on medium business
+    - https://iti.ca/en/contact/#form  - very similar concept few ideas that I borrowed.
 * Coursera for accordion solution hint for products page (changed afterwards)
 * Dashlane add on the facebook for colors combination 
 * LABA educational site for simplicity of layout - my banchmark: https://my.l-a-b-a.com/
@@ -116,10 +131,11 @@ google maps images
 * text
 
 ### **9. Content**
-* All content was written by the developer.
+* All content was written by the developer based on his experience and vision on business that he wans to develop.
 
 ### **10. Media**
-* Images provided by web-page author
+* Images provided by web-page author, no images were used from other sources 
+* logo image was taken from free wallpaper soource: https://wallpaper-house.com/wallpaper-id-30670.php 
 
 ### **11. Acknowledgements**
 * text

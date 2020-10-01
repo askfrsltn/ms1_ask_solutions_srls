@@ -159,7 +159,7 @@ hr{
 
 .flexheader-nav{
     flex:3;
-    text-align: center;
+    text-align: right;
 }
 
 .flexheader-button{    
@@ -346,7 +346,7 @@ svg.bi.bi-arrow-bar-down {
 .greybackground-section{
     background-color:#f6f9fb;
     max-width: 100%;  
-    padding: 8px;
+    padding: 16px;
 }
 
 .service-component-title {
@@ -428,10 +428,10 @@ h6.case-subtitle {
     padding: 10px;
     margin: 0 auto;
     text-align: center;
-    font-family:"Lato",sans-serif;
-    font-weight: 700;
-    width: 100%;
-    margin-bottom: 0px;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+    width:100%;
+    color: #e96541;
 }
 
 .address-address{
@@ -465,10 +465,23 @@ form{
     margin: 0 auto;
     text-align: center;
     font-family: "Lato",sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     width:100%;
     margin-bottom: 36px;
+    color: #e96541;
 }
+
+.form-invite{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    width:100%;
+    color: #183f45;
+}
+
+
 .form-control{
     margin-bottom: 10px;
 }
@@ -529,6 +542,7 @@ footer{
     text-align: left;
     font-family: "Lato",sans-serif;
     font-weight: 500;
+    line-height: 1.1;
 }
 
 .registration-detail{
