@@ -18,337 +18,82 @@
         <title>ASK Solutions Srls.Home</title>
     </head>   
     <body> 
-        <article>     
-            <header class="flex-header">
-                <!---------------- LOGO --->
-                <div class="flexheader-logo">
-                    <a class="col-2" href="index.html">
-                        <img src="assets/imgs/logo3.jpg" alt="Logo image AsK" class="logo">
-                    </a>
-                </div>
-                <!---------------- LANGUAGES-MODAL for UA and RU --->
-                <div class="modal fade" id="language-modal">
-                    <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Message | Сообщение | Повідомлення </h4>
-                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Russian and Urkrainian pages are currently under construction, sorry for inconvenience</p>
-                                    <hr>
-                                    <p>Страницы на русском и украинском языках находятся в стадии разработки, 
-                                    извините за временные неудобства</p> 
-                                    <hr>
-                                    <p>Сторінки на українській та россійській мовах знаходяться в стані розробки, 
-                                    вибачте за тимчасові незручності</p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <!---------------- LANGUAGES --->
-                <div class="flexheader-language">
-                    <ul class="list-inline languages">
-                        <li class="list-inline-item">
-                            <button type="button" class="language-item-active shadow">
-                                <a href="index.html" "><p>EN</p></a>
-                            </button>
-                        </li>
-                        <li class="list-inline-item">
-                            <button type="button" class="language-item" 
-                            data-toggle="modal" data-target="#language-modal">
-                                <p>RU</p>
-                            </button>
-                        </li>
-                        <li class="list-inline-item decoration-none">
-                            <button type="button" class="language-item" 
-                            data-toggle="modal" data-target="#language-modal">
-                                <p>UA</p>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-
-                <!---------------- NAVIGATION --->
-                <div id="desktop" class="flexheader-nav">
-                    <ul class="list-inline nav">
-                        <li class="list-inline-item" style="text-decoration:none;>
-                            <a href="index.html" >
-                                <h6 class="active ">Home</h6>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="credentials.html" style="text-decoration:none;">
-                                <h6 class="inactive">Credentials</h6>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="products.html" style="text-decoration:none;">
-                                <h6 class="inactive">Products</h6>
-                            </a>                            
-                        </li>
+        <article class="landing-page">     
+            <header class="row landingpage-header">
                         
-                        <!-- DECISION to DELETE FAQ - it does not have value so far
-                        <li class="list-inline-item">
-                            <a href="faq.html" style="text-decoration:none;">
-                                <h6 class="inactive">FAQ</h6>
-                            </a>
-                        </li>
-                        -->
-                        <li class="list-inline-item">
-                            <a href="callout.html" style="text-decoration:none;">
-                                <h6 class="inactive">CALL-OUT</h6>
-                            </a>                            
-                        </li>
-                        </ul>
-                </div>
-                <!---------------- CONTACT BUTTON --->
-                <div id="desktop" class="flexheader-button">
-                    <a type="button" class="btn btn-primary shadow-lg" href="contact.html">Ask for more</a>
-                </div>
-
+                        
+                    <div class="row landing-page-languages">
+                       
+                        <!---------------- LANGUAGES --->
+                        <div class="col-12 ">
+                            <ul class="list-inline languages">
+                                <li class="list-inline-item">
+                                    <button type="button" class="language-item-active shadow">
+                                        <a href="home.html" "><p>EN</p></a>
+                                    </button>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button type="button" class="language-item" 
+                                    data-toggle="modal" data-target="#language-modal">
+                                        <p>RU</p>
+                                    </button>
+                                </li>
+                                <li class="list-inline-item decoration-none">
+                                    <button type="button" class="language-item" 
+                                    data-toggle="modal" data-target="#language-modal">
+                                        <p>UA</p>
+                                    </button>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>    
             </header>
-                <!--------------invisible button that appears on mobile version only --->            
-                <div id="mobile" class="offset-8">
-                    <div class="btn-group">
-                        <button type="button" class="btn1 btn-secondary" data-toggle="dropdown" 
-                        data-display="static" aria-haspopup="true" aria-expanded="false">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-bar-down" id="invisible-arrrow" 
-                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
-                            </svg>
-                        </button>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <button class="dropdown-item" type="button"><a href="index.html">
-                        <h3 style="color:#183f45;">Home</h3></a></button>
-                        <button class="dropdown-item" type="button"><a href="credentials.html">
-                        <h3 style="color:#183f45;">Credentials</h3></a></button>
-                        <button class="dropdown-item" type="button">
-                            <a href="products.html">
-                                <h3 style="color:#183f45;">Products
-                                </h3>
-                            </a>
-                        </button>
-                        <button class="dropdown-item" type="button">
-                            <a href="contact.html">
-                                <h3 id="dropdown-item-ask">
-                                Ask for more
-                                </h3>
-                            </a>
-                        </button>        
-                                
-                                <!-- DECISION to DELETE FAQ - it does not have value so far
-                                <button class="dropdown-item" type="button"><a href="faq.html">
-                                <h3 style="color:#183f45;">FAQ</h3></a></button>
-                                -->
                         
-                    </div>
-                    </div>
-                </div>
-            <!---------------- MAIN-CONTENT --->        
             <main>
-                <article class="container white-section">
-                    <!--------------CONTENT-TITLE --->
-                    <div class="row">
-                        <div class="col-12">
-                            <h1 class="title">ASK Solutions</h1>
-                        </div>
+                <div class="row landingpage-content">
+                    <h1 class="col  landingpage-callout">Start solving your problem here:
+                    </h1>
+                </div>
+                <div class="row">
+                    <h1 class="col landingpage-callout">
+                        with "ASK SOLUTIONS"
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 offset-md-2 col-lg-3 offset-lg-2 landingpage-button">
+                        <button id="landingpage-button1">
+                            <a type="button" href="home.html"><h1>learn more</h1></a>
+                        </button>
                     </div>
-                    <!---------------- HERO IMAGE --->
-                    <div class="row align-items-center">
-                        <div class="col-sm-12 col-md-12 col-lg-4">
-                            <!---------------- Call-OUT SECTION --->
-                            <div class="container hero-image1">
-                                <div class="col-sm-12 col-md-12 col-lg-12 call-out-wrapper call-out">
-                                    <h2>Start solving your problem here:</h2>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 call-out-wrapper">
-                                    <a type="button" class="call-out-button1" href="credentials.html">
-                                        <h3>clear doubts</h3>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 call-out-wrapper">
-                                    <a type="button" class="call-out-button1" href="products.html">
-                                        <h3>see examples</h3>
-                                    </a>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 call-out-wrapper">
-                                    <a type="button" class="call-out-button2" href="products.html">
-                                        <h3>Start Now</h3>
-                                    </a>
-                                </div>                         
-                            </div>
-                            <!---------------- END OF Call-OUT SECTION --->
-                        </div>
-                    <!---------------- main content section --->                    
-                        <div class="col-sm-12 col-md-12 col-lg-8">
-                            <!---------------- SUBTITLE --->
-                            <div class="row">
-                                <div class="rsection-description">
-                                    <h2>We develop and implement digital solutions for medium-sized businesses <br>  
-                                    </h2>
-                                </div>
-                            </div>
-                            <!---------------- short small text before--->                        
-                            <div class="row">
-                                <div class="col-12">
-                                    <h6 id="rsection-aspects">Success of our client as well as our success is based 
-                                    on 2 fundamental factors:</h6>
-                                </div>
-                            </div>
-                            <!---------------- success-factors --->
-                            <div class="row two-success-factors">
-                                <!---------------- TRUST --->
-                                <div class="col-sm-12 col-md-5 col-lg-5 card shadow p-3 success-factors-item offset-md-1 offset-lg-1">
-                                    <h3 class="text-red">
-                                        YOUR TRUST     
-                                        <a href="credentials.html" class="text-decoration">
-                                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
-                                            </svg>
-                                        </a>
-                                    </h3>                                        
-                                    <hr>
-                                    <p>Our client trust us for our legal way of doing business, for our openesss
-                                    and for direct approach when it comes to solving hard issues. Here you can see our registration 
-                                    documents:</p>
-                                </div>
-                                <!---------------- PRODUCT --->
-                                <div class="col-sm-12 col-md-5 col-lg-5 card shadow p-3 success-factors-item">
-                                    <h3 class="text-red">OUR PRODUCT
-                                        <a href="products.html" class="text-decoration"> 
-                                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
-                                            </svg>
-                                        </a>
-                                    </h3><hr>
-                                    <p>Our product makes an impact that can be measured. In our development process we use recognised business 
-                                    analitcis solutions that are simple to use, easy to understand and embed into day-to-day business. 
-                                    please look at our product examples:</p>
-                                </div>
-                            </div>
-                            <!---------------- ARROW-DOWN --->
-                            <div class="row">
-                                <div id="desktop" class="col-md-1 col-lg-1 col-align-self-center">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-bar-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
-                                    </svg>
-                                </div>
-                                <div id="desktop" class="col-md-1 col-lg-1 offset-10 col-align-self-center">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-bar-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
-                                    </svg>
-                                </div>
-                                
-                            </div>
-                        </div>               
+                    <div class="col-sm-12 col-md-3 offset-md-2 col-lg-3 offset-lg-2 landingpage-button">
+                        <button id="landingpage-button2">
+                            <a landingpage-button2" type="button" href="contact.html"><h1>Let' talk!</h1></a>
+                        </button>
                     </div>
                     
-                </article>
-                <article class="greybackground-section">
-                    <!---------------- 4components --->                        
-                    <div class="row justify-content-around">
-                        <div class="col-sm-12 col-md-3 col-lg-3 card shadow p-3 service-component-item">
-                            <div>
-                                <a href="credentials.html">
-                                    <i class="fas fa-balance-scale component-icon"></i>
-                                    <h6 class="service-component-title">We are 100% legal...</h6>
-                                </a>        
-                                    <p>Money is not a priority for us, 
-                                    it's important for our partner to know that we coomply 
-                                    with legal and business policies.
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-3 col-lg-3 card shadow p-3 service-component-item">
-                            <div>
-                                <a href="credentials.html">
-                                    <i class="fas fa-wrench component-icon"></i>
-                                    <h6 class="service-component-title">...Experienced</h6>
-                                </a>        
-                                    <p>We for for more than 20 than 20 multinational
-                                    clients across 5 continents. We address specific issues or run 
-                                    turnaround.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-3 col-lg-3 card shadow p-3 service-component-item">
-                            <div>
-                                <a href="products.html">
-                                    <i class="fas fa-laptop-code component-icon"></i>
-                                    <h6 class="service-component-title">...Digital</h6>
-                                </a>                                
-                                    <p>We use recognised Business analysis and Business Intelligence platforms, 
-                                    such as Power BI, Google Sheets, Data Studio, Excell
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-3 col-lg-3 card shadow p-3 service-component-item">
-                            <div>
-                                <a href="products.html">
-                                    <i class="far fa-dot-circle component-icon"></i>
-                                    <h6 class="service-component-title">...Simple</h6>
-                                </a>
-                                <p>Simplicity is a core of our service. 
-                                    Whatever we implement it needs to be, intuitive, 
-                                    easy to use and learn, sustainable and impactfull
-                                </p>
-                            </div>
-                        </div>
-                    </div>      
-                </article>
+                </div>
+
             </main>
-            <!---------------- FOOTER --->      
-            <footer class="flex-footer">   
-                
-                <div id="desktop" class="flexfooter-box1">
-                    <div class="row list-inline ">
-                        <p class="col list-inline-item footer-item1">
-                            Registration:
-                        </p>
-                        <div class="list-inline-item">
-                            <p class="col registration-detail">IVA no: 15828211001</p>
-                            <p class="col registration-detail">REA no: RM-1616946 </p>
+        </article>
+        <!---------------- LANGUAGES-MODAL for UA and RU --->
+        <div class="modal fade" id="language-modal">
+            <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Message | Сообщение | Повідомлення </h4>
+                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Russian and Urkrainian pages are currently under construction, sorry for inconvenience</p>
+                            <hr>
+                            <p>Страницы на русском и украинском языках находятся в стадии разработки, 
+                            извините за временные неудобства</p> 
+                            <hr>
+                            <p>Сторінки на українській та россійській мовах знаходяться в стані розробки, 
+                            вибачте за тимчасові незручності</p>
                         </div>
                     </div>
-                </div>
-                    
-                <div id="desktop" class="flexfooter-box2">
-                    <div class="row list-inline">
-                        <p class="col list-inline-item footer-item1">Address:</p>
-                        <p class="col list-inline-item footer-item2">via Cervia 43P, Fregene, RM, Italy; <br> tel:+39 324 7917 555;
-                        <br>Email:info@ask-for-solution.com</p>
-                    </div>
-                </div>
-                
-                <div class="flexfooter-box3">
-                    <ul class="list-inline social-media-box">
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.linkedin.com/in/asaltanchuk/">
-                                    <h2 class="icon-item"><i class="fa fa-linkedin "></i></h2>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://askfrsltn.github.io/andriysaltanchuk_cv/"">
-                                    <h2 class="icon-item"><i class="fa fa-github"></i></h2>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="#">
-                                    <h2 class="icon-item"><i class="fa fa-youtube"></i></h2>
-                                </a>
-                            </li>
-                        </ul>
-                </div>
-                <!---------------- MOBILE VERSION BUTTON ONLY --->
-                <div id="mobile" class="flexfooter-button">
-                    <a type="button" class="btn btn-primary" href="contact.html">Ask for more</a>
-                </div>       
-            </footer>
-        </article>
+            </div>
+        </div>
     </body>   
 </html>
