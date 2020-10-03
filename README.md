@@ -62,14 +62,14 @@ few seconds to relise that I need to press red button.
     - **Grey-blue background** - background idea borrowed from https://iti.ca/en/contact/#form
 * Fonts:
     - Exo weight 300 - mostly capitalized for headings
-    - Lato - for content text
+    - Lato 300/500 - for content text
 
 
 
 ### **5. Technologies Used**
 * Google inspect
 * VIdeo
-* for product I use pictures linked to live google-site website linked to Business Analytics engine.
+* Fancyapp - to use carousel and align images on my credentials page.
 
 #### 5.1 Languages Used
 * HTML5
@@ -112,7 +112,9 @@ few seconds to relise that I need to press red button.
 #### 6.3 UX testing
 * text
 #### 6.4 Known Bugs
-* text
+* contact button in mobile version appears differrent on googl inspect tool vs iphone screen
+* images on credentials page loks great on git-pod preview, however 2 of 7 images do not how on git-hub page after publiching
+
 
 ### **7. Deployment**
 #### 7.1 GitHub Pages

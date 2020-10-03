@@ -71,7 +71,7 @@ hr{
 /* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION---------------------------*/
 
 .btn-group{
-    margin-top: -30px;
+    margin-top: -40px;
     display: flex;
     margin-right: 10px;
     margin-left: 40px;
@@ -91,6 +91,11 @@ hr{
     border: 1px solid #e96541;
     border-radius: 50%;
     line-height: 1.5;
+}
+#invisible-arrrow{
+    color: #fafafa;
+    font-size: 20px;
+    font-weight:300;
 }
 
 .btn-secondary {
@@ -113,6 +118,10 @@ hr{
     box-shadow: none;
     outline: none;
 }
+.btn-primary:hover{
+    background-color:#d9dedf;
+    border-color: #d9dedf;
+}
 
 .dropdown-menu{
     min-width:350px;
@@ -130,11 +139,16 @@ hr{
     color: #183f45;
 }
 
+#dropdown-item-ask{
+    color: #e96541;
+}
+
 @media(max-width:800px){
     #desktop {display: none;}
     #mobile {display: block;}
     h1.title {margin-top:-15px;text-align: center;}
     .address-title {border-top:1px s olid #e5ebf5;}
+    .hero-image{min-height: 50%;}
 }
 
 @media(min-width:801px){
@@ -184,38 +198,42 @@ hr{
 }
 
 .language-item {
-    width: 32px;
-    height: 32px;
-    padding: 5px 5px 5px 5px;
+    width: 28px;
+    height: 28px;
+    padding: 7px 2px 2px 2px;
     margin: 1px;
     border-radius: 50%;
-    font-size: 15px;
-    line-height: 20px;
+    line-height: 1;
     text-align: center;
     text-decoration: none;
     font-family: "Lato", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    font-size:80%;
     color: #4e676e;
     background-color: #e5ebf5;
-    border: solid .5px #4e676e;
+    border: solid .5px #e5ebf5;
     transition: all 0.35s ease-in-out;
+}
+*:focus {
+    outline: 0 !important;
 }
 
 .language-item-active{
-    width: 32px;
-    height: 32px;
-    padding: 5px 5px 5px 5px;
+    width: 28px;
+    height: 28px;
+    padding: 7px 3px 3px 3px;
     margin: 1px;
     border-radius: 50%;
-    font-size: 15px;
-    line-height: 20px;
+    line-height: 1;
     text-align: center;
     text-decoration: none;
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    color: #e5ebf5;
+    font-size:80%;
+    color: #fafafa;
     background-color:#e96541;
-    border: solid .5px #e96541  ;
+    border: solid .5px #e96541;
+    outline: none;
     transition: all 0.35s ease-in-out;
 } 
 
@@ -394,6 +412,9 @@ h6 p{
     padding: 0;
 }
 
+mb-0{
+    background-color: #d9dedf;
+}
 .credential-image{
     max-width: 300px;
     margin:10px;
@@ -422,6 +443,45 @@ h6.case-subtitle {
     letter-spacing: 1.5px;
     font-size:12px; 
     color: #e96541;
+}
+.col-sm-4.col-md-4.col-lg-4.card-result{
+    background-color: #ffffff;
+    border:0.5px solid #d9dedf;
+    border-radius: 10px;
+    max-width: 40%;
+    min-height:140px;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.card-large-digit{
+    font-weight: 700;
+    color: #bc544b;
+    margin:0;
+    margin-top: 15px;
+    padding:10px;
+}
+
+.card-small-comment{
+    margin:5xp;
+    padding:10px;
+    font-weight: 300;
+}
+
+.client-logo1{
+    border-radius: 50%;
+    padding:10px 2px 5px 2px;
+    max-width: 90%;
+    max-height: 100px;
+    border: 0.5px solid #183F45;
+    margin: 15px;
+    margin-top: 30px;
+}
+.client-quote-text{
+    max-width: 100%;
+    margin: auto;
 }
 
 /* -------------------CONTACT PAGE----------------------------------------------*/
@@ -469,7 +529,7 @@ form{
     font-family: "Lato",sans-serif;
     font-weight: 500;
     width:100%;
-    margin-bottom: 36px;
+    margin-bottom: 10px;
     color: #e96541;
 }
 
