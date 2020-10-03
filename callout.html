@@ -18,63 +18,79 @@
         <title>ASK Solutions Srls.Home</title>
     </head>   
     <body> 
-        <article>     
+        <article class="landing-page">     
             <header class="row landingpage-header">
-                        <!---------------- LANGUAGES-MODAL for UA and RU --->
-                        <div class="modal fade" id="language-modal">
-                            <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4 class="modal-title">Message | Сообщение | Повідомлення </h4>
-                                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Russian and Urkrainian pages are currently under construction, sorry for inconvenience</p>
-                                            <hr>
-                                            <p>Страницы на русском и украинском языках находятся в стадии разработки, 
-                                            извините за временные неудобства</p> 
-                                            <hr>
-                                            <p>Сторінки на українській та россійській мовах знаходяться в стані розробки, 
-                                            вибачте за тимчасові незручності</p>
-                                        </div>
-                                    </div>
-                            </div>
+                        
+                        
+                    <div class="row landing-page-languages">
+                       
+                        <!---------------- LANGUAGES --->
+                        <div class="col-12 ">
+                            <ul class="list-inline languages">
+                                <li class="list-inline-item">
+                                    <button type="button" class="language-item-active shadow">
+                                        <a href="index.html" "><p>EN</p></a>
+                                    </button>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button type="button" class="language-item" 
+                                    data-toggle="modal" data-target="#language-modal">
+                                        <p>RU</p>
+                                    </button>
+                                </li>
+                                <li class="list-inline-item decoration-none">
+                                    <button type="button" class="language-item" 
+                                    data-toggle="modal" data-target="#language-modal">
+                                        <p>UA</p>
+                                    </button>
+                                </li>
+                            </ul>  
                         </div>
-                        <!---------------- LOGO --->
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <a href="index.html">
-                        <img src="assets/imgs/logo3.jpg" alt="Logo image AsK" class="logo">
-                    </a>
-                </div>
-                    </div>
-                
-                <!---------------- LANGUAGES --->
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <ul class="list-inline languages">
-                        <li class="list-inline-item">
-                            <button type="button" class="language-item-active shadow">
-                                <a href="index.html" "><p>EN</p></a>
-                            </button>
-                        </li>
-                        <li class="list-inline-item">
-                            <button type="button" class="language-item" 
-                            data-toggle="modal" data-target="#language-modal">
-                                <p>RU</p>
-                            </button>
-                        </li>
-                        <li class="list-inline-item decoration-none">
-                            <button type="button" class="language-item" 
-                            data-toggle="modal" data-target="#language-modal">
-                                <p>UA</p>
-                            </button>
-                        </li>
-                    </ul>  
-                </div>
+                    </div>    
             </header>
             
             
             <main>
+                <div class="row landingpage-content">
+                    <h1 class="col  landingpage-callout">Start solving your problem here:
+                    </h1>
+                </div>
+                <div class="row">
+                    <h1 class="col landingpage-callout">
+                        with ASK SOLUTIONS
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 offset-md-2 col-lg-3 offset-lg-2 landingpage-button">
+                        <a id="landingpage-button1" type="button"><h1>learn more</h1></a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 offset-md-2 col-lg-3 offset-lg-2 landingpage-button">
+                        <a id="landingpage-button2" type="button" href=""><h1>ask how</h1></a>
+                    </div>
+                    
+                </div>
+
             </main>
         </article>
+        <!---------------- LANGUAGES-MODAL for UA and RU --->
+        <div class="modal fade" id="language-modal">
+            <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Message | Сообщение | Повідомлення </h4>
+                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Russian and Urkrainian pages are currently under construction, sorry for inconvenience</p>
+                            <hr>
+                            <p>Страницы на русском и украинском языках находятся в стадии разработки, 
+                            извините за временные неудобства</p> 
+                            <hr>
+                            <p>Сторінки на українській та россійській мовах знаходяться в стані розробки, 
+                            вибачте за тимчасові незручності</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
     </body>   
 </html>

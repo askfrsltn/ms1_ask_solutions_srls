@@ -162,8 +162,68 @@ hr{
     #mobile{display: none;}
 }
 /* -------------------LANDING-PAGE----------------------------------------------*/
-.landingpage-header{
-    justify-content: space-between;
+
+.landing-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(/assets/imgs/landing-page1.jpg); 
+    background-size: cover; 
+    height:100%; 
+    width: 100%;
+    border: none;
+}
+.landing-page-languages{
+    justify-content: end;
+    margin-left:50px;
+}
+
+.landingpage-callout{
+    text-align:center;
+    margin: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: "Exo" , sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color:#fafafa;
+}
+
+.landingpage-button{
+    text-align: center;
+    padding: 15px;
+}
+
+#landingpage-button1{
+    text-align:center;
+    font-family: "Lato" , sans-serif;
+    font-weight: 200;
+    color: #e96541;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-color:#e96541;
+    background-color:none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:20px;
+    margin: auto;
+    width: 300px;
+}
+
+#landingpage-button2{
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-color:#e96541;
+    background-color:#e96541;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:20px;
+    margin: auto;
+    width: 300px;
 }
 
 /* -------------------FlexBOX-HEADER----------------------------------------------*/
@@ -191,6 +251,9 @@ hr{
     text-align: center;
 }
 /* -------------------HEADER-----------------------------------------------*/
+.landing-page-header {
+    justify-content: space-around;
+}
 
 .logo{
     padding: 5px;
