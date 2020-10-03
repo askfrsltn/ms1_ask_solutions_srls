@@ -410,7 +410,9 @@ a h6:hover{
     background-image: url(/assets/imgs/hero-image10.jpg); 
     background-size: cover; 
     height:400px; 
-    padding-top:10px;
+    padding-top:30px;
+    border-radius: 10px;
+    width: 90%
 }
 
 
@@ -429,7 +431,7 @@ a h6:hover{
     border-radius: 5px;
     color: #e96541;
     background: none;
-    width: 80%;
+    width: 85%;
     margin: 5px;
     margin-top: 50px;
     padding-top: 7px;
@@ -447,7 +449,7 @@ a h6:hover{
     border-radius: 5px;
     background-color:#e96541; 
     color: #fafafa;
-    width: 80%;
+    width: 85%;
     margin: 5px;
     margin-top: 50px;
     padding-top: 7px;
