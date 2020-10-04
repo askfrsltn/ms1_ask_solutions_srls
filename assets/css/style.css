@@ -104,6 +104,7 @@ hr{
     border-radius: 50%;
     line-height: 1.5;
 }
+
 #invisible-arrrow{
     color: #fafafa;
     font-size: 20px;
@@ -170,6 +171,9 @@ hr{
 
 /* -------------------LANDING-PAGE----------------------------------------------*/
 
+.landing-page-main{
+    
+}
 .landing-page{
     position: fixed;
     top: 0;
@@ -180,6 +184,7 @@ hr{
     width: 100%;
     border: none;
 }
+
 .landing-page-languages{
     justify-content: end;
     margin-left:50px;
@@ -199,6 +204,7 @@ hr{
 .landingpage-button{
     text-align: center;
     padding: 15px;
+    -webkit-appearance: none;
 }
 
 #landingpage-button1{
@@ -212,17 +218,15 @@ hr{
     user-select: none;
     background-color: transparent;
     border: 1px solid #e96541;
-    padding: 6px 8px 6px 4px;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     text-transform: uppercase;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-top:20px;
+    border-radius: 4px;
     margin: auto;
     font-family: "Exo" , sans-serif;
     color: #e96541;
     width: 300px;
+    -webkit-appearance: none;
 }
 
 #landingpage-button2{
@@ -247,6 +251,7 @@ hr{
     font-family: "Exo" , sans-serif;
     color: #fafafa;
     width: 300px;
+    -webkit-appearance: none;
 }
 
 #landingpage-button1:hover{
@@ -312,9 +317,8 @@ hr{
 }
 
 .language-item {
-    width: 28px;
     height: 28px;
-    padding: 7px 2px 2px 2px;
+    padding-top: 7px;
     margin: 1px;
     border-radius: 50%;
     line-height: 1;
@@ -330,9 +334,8 @@ hr{
 }
 
 .language-item-active{
-    width: 28px;
     height: 28px;
-    padding: 7px 3px 3px 3px;
+    padding-top: 8px;
     margin: 1px;
     border-radius: 50%;
     line-height: 1;
@@ -431,7 +434,7 @@ a h6:hover{
     height:400px; 
     padding-top:30px;
     border-radius: 10px;
-    width: 90%;
+    width: 95%;
     margin-top: 10px;
 }
 
@@ -452,7 +455,6 @@ a h6:hover{
     color: #e96541;
     background: none;
     width: 85%;
-    margin: 5px;
     margin-top: 50px;
     padding-top: 7px;
 }
@@ -470,7 +472,6 @@ a h6:hover{
     background-color:#e96541; 
     color: #fafafa;
     width: 85%;
-    margin: 5px;
     margin-top: 50px;
     padding-top: 7px;
 }
@@ -498,7 +499,6 @@ a h6:hover{
     margin: auto;
     width: 90%;
     height: 250px;
-    padding: 10px;
     margin-top: 10px;
     text-align: center;
     border:#fafafa 1px solid;
@@ -579,24 +579,16 @@ mb-0{
     background-color: #d9dedf;
 }
 .credential-image{
-    max-width: 300px;
-    margin:10px;
-    margin-left: 15px;
-    padding: 5px;
+    max-width: 47%;
+    max-height: 25%;
+    margin-top:15px;
     border: solid 1px #d9dedf;
     text-align: center;
     display: inline-block;
 }
 
 button span i {
-    color: #4e676e
-}
-
-.case-image{
-    padding: 5px;
-    width: 80%;
-    border: 1px solid;
-    border-color: #4e676e;
+    color: #4e676e;
 }
 
 h6.case-subtitle {
@@ -607,6 +599,7 @@ h6.case-subtitle {
     font-size:12px; 
     color: #e96541;
 }
+
 .card-result{
     margin:5px;
     padding: 10px;
@@ -615,11 +608,10 @@ h6.case-subtitle {
     background-color: #ffffff;
     border:0.5px solid #d9dedf;
     border-radius: 10px;
-    max-width: 45%;
+    max-width: 47%;
     min-height:130px;
     margin: auto;
     text-align: center;
-    padding: 5px;
 }
 
 
@@ -640,24 +632,20 @@ h6.case-subtitle {
 }
 
 .client-logo1{
-    padding:5px;
     border-radius:10px;
-    max-width: 90%;
+    max-width: 80%;
     max-height: 100px;
     border: 0.5px solid #183F45;
-    margin: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .client-quote-text{
     max-width: 100%;
-    margin: auto;
+    margin-top: 15px;
 }
 
 /* -------------------CONTACT PAGE----------------------------------------------*/
 
 .address-title{
-    padding: 5px;
-    margin: 0 auto;
     text-align: center;
     font-family: "Lato",sans-serif;
     font-weight: 500;
@@ -673,14 +661,8 @@ h6.case-subtitle {
 }
 
 .iframe{
-    min-width:100%; 
-    margin: auto;
+    min-width:90%; 
     text-align: center;
-}
-
-form{
-    max-width: 80%;
-    margin:auto;
 }
 
 .center-form {
@@ -690,11 +672,10 @@ form{
     font-weight: 700;
     text-align: center;
     min-width: 80%;
+    display:inline;
 }
 
 .form-title{
-    padding: 10px;
-    margin: 0 auto;
     text-align: center;
     font-family: "Lato",sans-serif;
     font-weight: 500;
@@ -704,8 +685,6 @@ form{
 }
 
 .form-invite{
-    padding: 10px;
-    margin: 0 auto;
     text-align: center;
     font-family: "Lato",sans-serif;
     font-weight: 400;
@@ -744,10 +723,10 @@ form{
     order: 2;
     text-align: center;
     margin-top: 0;
+    -webkit-appearance: none;
 }
 /* -------------------FOOTER---------------------------------------*/
 footer{
-    padding: 5px;
     background-color:#ffffff;
     width: 100%;
     height: 70px;
@@ -782,17 +761,16 @@ footer{
 }
 
 .icon-item {
-    width: 32px;
-    height: 32px;
-    padding: 5px 5px 5px 5px;
+    height: 28px;
+    padding-top: 8px;
     margin: 1px;
     border-radius: 50%;
-    font-size: 15px;
-    line-height: 20px;
+    line-height: 1;
     text-align: center;
     text-decoration: none;
     font-family: "Lato", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    font-size:80%;
     color: #183f45;
     background-color: #e5ebf5;
     border: solid .5px #4e676e;
@@ -803,6 +781,6 @@ footer{
 }
 
 .icon-item:hover {
-    background: #183f45;
+    background: #4e676e;
     color: #ffffff;
 }
