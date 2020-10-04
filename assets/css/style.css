@@ -172,7 +172,7 @@ hr{
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url(assets/imgs/landing-page4.jpg); 
+    background-image: url(landing-page4.jpg); 
     background-size: cover; 
     height:100%; 
     width: 100%;
@@ -426,7 +426,7 @@ a h6:hover{
 
 
 .hero-image1{
-    background-image: url(assets/imgs/hero-image10.jpg); 
+    background-image: url(hero-image10.jpg); 
     background-size: cover; 
     height:400px; 
     padding-top:30px;
