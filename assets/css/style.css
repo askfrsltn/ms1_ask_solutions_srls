@@ -63,9 +63,8 @@ a {
 }
 
 a:hover{
-    color: inherit !important;
+    color: inherit;
 }
-
 a {
     text-decoration: none !important;
 }
@@ -186,8 +185,9 @@ hr{
 
 .landingpage-callout{
     text-align:center;
+    font-size:45px;
     margin: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
     font-family: "Exo" , sans-serif;
     font-weight: 200;
@@ -198,11 +198,12 @@ hr{
 .landingpage-button{
     text-align: center;
     padding: 15px;
+    margin-top: 20px;
 }
 
 #landingpage-button1{
     display: inline-block;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -210,7 +211,7 @@ hr{
     -ms-user-select: none;
     user-select: none;
     background-color: transparent;
-    border: 2px solid #e96541;
+    border: 1px solid #e96541;
     padding: 6px 8px 6px 4px;
     font-size: 1rem;
     line-height: 1.5;
@@ -226,7 +227,7 @@ hr{
 
 #landingpage-button2{
     display: inline-block;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -234,7 +235,7 @@ hr{
     -ms-user-select: none;
     user-select: none;
     background-color: #e96541;
-    border: 2px solid #e96541;
+    border: 1px solid #e96541;
     padding: 6px 8px 6px 4px;
     font-size: 1rem;
     line-height: 1.5;
@@ -258,6 +259,14 @@ hr{
     border-color: #d9dedf;
     color: #183f49;
 }
+
+#landingpage-button1 h1{
+    margin-top: 8px;
+}
+#landingpage-button2 h1{
+    margin-top: 8px;
+}
+
 /* -------------------FlexBOX-HEADER----------------------------------------------*/
 .flex-header{
     display: flex;
@@ -338,6 +347,12 @@ hr{
     outline: none;
     transition: all 0.35s ease-in-out;
 } 
+.language-item-active:hover{
+    background-color:#183f49;
+    border-color: #d9dedf;
+    color: #d9dedf;
+}
+
 
 .active {
   border-bottom: 1px solid;
@@ -349,6 +364,10 @@ hr{
 .inactive {
   color: #183f45;
 }
+.inactive:hover{
+    color: #e96541;
+}
+
 
 .btn-primary{
     background-color: #e96541;
