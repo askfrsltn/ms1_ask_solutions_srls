@@ -155,24 +155,26 @@ hr{
     color: #e96541;
 }
 
-@media(max-width:800px){
+
+@media(max-width:768px){
     #desktop {display: none;}
     #mobile {display: block;}
     h1.title {text-align: center;}
     .address-title {border-top:1px s olid #e5ebf5;}
 }
 
-@media(min-width:801px){
+@media(min-width:769px){
     #desktop{display: block;}
     #mobile{display: none;}
 }
+
 /* -------------------LANDING-PAGE----------------------------------------------*/
 
 .landing-page{
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url(landing-page4.jpg); 
+    background-image: url("../imgs/landing-page4.jpg"); 
     background-size: cover; 
     height:100%; 
     width: 100%;
@@ -187,8 +189,7 @@ hr{
     text-align:center;
     font-size:45px;
     margin: 20px;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 5px;
     font-family: "Exo" , sans-serif;
     font-weight: 200;
     text-transform: uppercase;
@@ -198,7 +199,6 @@ hr{
 .landingpage-button{
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
 }
 
 #landingpage-button1{
@@ -426,12 +426,13 @@ a h6:hover{
 
 
 .hero-image1{
-    background-image: url(hero-image10.jpg); 
+    background-image: url("../imgs/hero-image10.jpg"); 
     background-size: cover; 
     height:400px; 
     padding-top:30px;
     border-radius: 10px;
-    width: 90%
+    width: 90%;
+    margin-top: 10px;
 }
 
 
@@ -489,7 +490,10 @@ a h6:hover{
     color: #183f45;
     margin-top: 15px;
 }
-
+.two-success-factors{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 .card.success-factors-item{
     margin: auto;
     width: 90%;
@@ -514,12 +518,11 @@ a h6:hover{
 
 #arrow-down{
     vertical-align: top;
-}
-svg.bi.bi-arrow-bar-down {
-    color: #183f45;
     width: 1.2em;
     height: 1.2em;
 }
+
+
 
 .greybackground-section{
     background-color:#f6f9fb;
