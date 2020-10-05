@@ -113,7 +113,7 @@ hr{
 
 .btn-secondary {
     background-color: #e96541;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 16px;
 }
@@ -207,7 +207,7 @@ hr{
     -webkit-appearance: none;
 }
 
-#landingpage-button1{
+.btn.btn-secondary{
     display: inline-block;
     font-weight: 200;
     text-align: center;
@@ -227,9 +227,11 @@ hr{
     color: #e96541;
     width: 300px;
     -webkit-appearance: none;
+    box-shadow: none;
 }
 
-#landingpage-button2{
+
+.btn.btn-warning{
     display: inline-block;
     font-weight: 200;
     text-align: center;
@@ -251,7 +253,8 @@ hr{
     font-family: "Exo" , sans-serif;
     color: #fafafa;
     width: 300px;
-    -webkit-appearance: none;
+    -webkit-appearance: none;\
+    shadow:none;
 }
 
 #landingpage-button1:hover{
@@ -431,11 +434,11 @@ a h6:hover{
 .hero-image1{
     background-image: url("../imgs/hero-image10.jpg"); 
     background-size: cover; 
-    height:400px; 
+    height:420px; 
     padding-top:30px;
     border-radius: 10px;
-    width: 95%;
-    margin-top: 10px;
+    width: 90%;
+    margin-top: 40px;
 }
 
 
@@ -489,11 +492,10 @@ a h6:hover{
     text-align: center;
     font-weight:200;
     color: #183f45;
-    margin-top: 15px;
+    margin-top: 60px;
 }
 .two-success-factors{
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .card.success-factors-item{
     margin: auto;
@@ -502,32 +504,23 @@ a h6:hover{
     margin-top: 10px;
     text-align: center;
     border:#fafafa 1px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #f6f9fb;
     vertical-align:middle;
 }
+.card.success-factors-item:hover{
+    background: #d9dedf;
+    border-color: #d9dedf
+}
 
-#rsection-aspects {
-    text-align: center;
-    font-family:"Lato", sans-serif;
-    font-weight:400;
-    margin-top:20px;
+.four-components{
     margin-bottom:20px;
-    color: #e96541;
 }
-
-#arrow-down{
-    vertical-align: top;
-    width: 1.2em;
-    height: 1.2em;
-}
-
-
 
 .greybackground-section{
     background-color:#f6f9fb;
     max-width: 100%;  
-    padding: 16px;
+    margin-top: 30px;
 }
 
 .service-component-title {
@@ -552,12 +545,10 @@ a h6:hover{
     border-color: #fafafa
 }
 
-
 .component-icon{
     font-size: 24px;
     color: #183f45;
 }
-
 
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT--------------*/
 
