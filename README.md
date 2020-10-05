@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-**WELCOME TO "ASK FOR SOLUTION" WEBSITE**
 
-![ASK Solutions site preview](/assets/imgs/readme-top2.jpg "Desktop mobile site preview")
-
-=======
 # WELCOME TO "ASK FOR SOLUTION" COMPANY WEBSITE
 
 ![ASK Solutions site preview](/assets/imgs/readme-top2.jpg "Desktop mobile site preview")
->>>>>>> ffa4eec7a09863a40757b946c79b98f0dbcfeee1
 
 * The purpose of the web-site is twofold - (1) promote consulting services of a real company "ASK SOLUTIONS" to potential client 
 and (2) convince the client to make a first contact with the compnay. 
