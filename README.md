@@ -23,22 +23,16 @@ So he visits the domain www.ask-for-solution.com. A potential client wants to se
 Bases on the onformation on the site he will decide to deal witht this company or not.
 
 ### 2. First Visit
-        * The landing page gives a user a positive answer to the very first question: yes this company has a site, it looks simple, professional 
-        and it seems like they really solve some issues.
-        * After landing on a page the client can quickly decide 2 things: (1) What language he wants to read the information on.
-        (2) what he wants to do now - contact the company immidiately or learn a bit more about it. 
-        * The landing page automatically suggests to press "let's talk" button and proceed to contact page with the simple 3 lines contact form.
-        * The "learn more" button redirect the client to a "home" page which has more information on it. 
-        * On the home page there is a second call-out suggesting the user to look at the examples or press the button "Let's talk" again. 
-        * If the user decides to read more, he read the title explaining that the company develop digital solutions for the business adn scroll 
-        down (on a mobile) or read next to the right.
-        * After a first title he finds detailed information about service succcess- the user sees that his trust and compnay product 
-        effectievness is a key to success. 
-        * At this point the client may want to decide to look at more details about this success factors, so he can press one of 
-        the cards and go to 1 of 2 pages:
-            - "Trust" card redirects him to credential page - simple page with image gallery. Here the client can press and chack that registration 
-            and qualification of the company is adequate and client can trust the company.
-            - "Products" card redirect him to "cases" page- the page where he can see 3  examples of the work the company did and some 
+* The landing page gives a user a positive answer to the very first question: yes this company has a site, it looks simple, professional and it seems like they really solve some issues.
+* After landing on a page the client can quickly decide 2 things: (1) What language he wants to read the information on. (2) what he wants to do now - contact the company immidiately or learn a bit more about it. 
+* The landing page automatically suggests to press "let's talk" button and proceed to contact page with the simple 3 lines contact form.
+* The "learn more" button redirect the client to a "home" page which has more information on it. 
+* On the home page there is a second call-out suggesting the user to look at the examples or press the button "Let's talk" again. 
+* If the user decides to read more, he read the title explaining that the company develop digital solutions for the business adn scroll down (on a mobile) or read next to the right.
+* After a first title he finds detailed information about service succcess- the user sees that his trust and compnay product effectievness is a key to success. 
+* At this point the client may want to decide to look at more details about this success factors, so he can press one of the cards and go to 1 of 2 pages:
+       - "Trust" card redirects him to credential page - simple page with image gallery. Here the client can press and chack that registration and qualification of the company is adequate and client can trust the company.
+       - "Products" card redirect him to "cases" page- the page where he can see 3  examples of the work the company did and some 
             details that will convince the client that this exmples are clos to his business (results that the client achieved, actions and 
             quote from the customer of the real companies)
         * Still on a home page if the client decides what exactly make this company unique he can find 4 more boxes explaingn that company 
