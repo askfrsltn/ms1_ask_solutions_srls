@@ -22,8 +22,7 @@ So he visits the domain www.ask-for-solution.com. A potential client wants to se
 5. Reasons for the client to believe the company?
 Bases on the onformation on the site he will decide to deal witht this company or not.
 
-<<<<<<< HEAD
-2. First Visit
+### 2. First Visit
         * The landing page gives a user a positive answer to the very first question: yes this company has a site, it looks simple, professional 
         and it seems like they really solve some issues.
         * After landing on a page the client can quickly decide 2 things: (1) What language he wants to read the information on.
@@ -56,44 +55,14 @@ Bases on the onformation on the site he will decide to deal witht this company o
         explaining that this pages are under construction. The modal will be deleted after pages in other languages will be built.
         * COntact page has 2 sectios: address with googe map and a soimple 3-lines contact form.
 
-2. Appoach to page development
-=======
-### 2. First Visit
-The landing page gives a user an answer to the first question: yes this company has a site, it looks simple, professional 
-and they do understand that I have some issue.
-* After landing on a page the client can quickly decide 2 things: (1) What language he wants to read the information on.
- (2) what he wants to do now - contact the company immidiately or learn a bit more about it. 
-* The landing page automatically suggests to press "let's talk" button and proceed to contact page with the simple 3 lines contact form.
-* The "learn more" button redirect the client to a "home" page which has more information on it. 
-* On the home page there is a second call-out suggesting the user to look at the examples or press the button "Let's talk" again. 
-* If the user decides to read more, he read the title explaining that the company develop digital solutions for the business adn scroll 
- down (on a mobile) or read next to the right.
- * After a first title he finds detailed information about service succcess- the user sees that his trust and compnay product 
- effectievness is a key to success. 
- At this point the client may want to decide to look at more details about this success factors, so he can press one of 
- the cards and go to 1 of 2 pages:
-     1. Trust card redirects him to credential page - simple page with image gallery. Here the client can press and chack that registration 
-     and qualification of the company is adequate and client can trust the company.
-     2. Producs card redirect him to "cases" page- the page where he can see 3  examples of the work the company did and some 
-     details that will convince the client that this exmples are clos to his business (results that the client achieved, actions and 
-     quote from the customer of the real companies)
-* Still on a home page if the client decides what exactly make this company unique he can find 4 more boxes explaingn that company 
- believes in legal way of doing things, it has experience, it use a know how how to develop digital products and its 
- product is simple enough to learn and use
-* If any moment the client decides to leave the page he sees the navigation bar at the top-center of desktop screen 
- or he sees large orange burger button if he uses mobile, this menu helps him navigate the site from any page to any page (apart from landing).
-* On the footer of any page (desktop) the user can see registartion numbers that tells him that business is legal, 
- official address of the company and 3 social media icons if he wants to know public infomration about company on linkedin, github or youtube channel.
-* Mobile version of the footer is more simple, it has a red contact button to remind the user that 
- he may contact the company immideatly and social media icons.
-* Languages can be changed at any moment of site navigation through 3 icons at the header. 
- Currently Russian and Ukrainian languages are under construction. If the user presses UA or RU icon in the header he can see a modal popup 
- explaining that this pages are under construction. The modal will be deleted after pages in other languages will be built.
-* COntact page has 2 sectios: address with googe map and a soimple 3-lines contact form.
+## APPROACH
+I took a mobile first approach, using Balsamique I developped 5 pages website for mobile (picture 1), then desktop versions of it (figure 2), after that I developed css layout (figure 3): 
+#### figure 1: Mobile pages in Balsamique
 
-## 2. Appoach to page development
->>>>>>> ffa4eec7a09863a40757b946c79b98f0dbcfeee1
-    *
+### figure 2: Desktop pages in Balsamique
+
+### figure 3: pages grid layout in Balsamique for mobile and Desktop
+
 
 
 **Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
