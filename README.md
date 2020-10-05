@@ -1,10 +1,11 @@
-# WELCOME TO "ASK FOR SOLUTION" WEBSITE
+# WELCOME TO "ASK FOR SOLUTION" COMPANY WEBSITE
+
 ![ASK Solutions site preview](/assets/imgs/readme-top1.jpg "Desktop mobile site preview")
 
-*The purpose of the web-site is twofold - (1) promote consulting services of a real company "ASK SOLUTIONS" to potential client 
+* The purpose of the web-site is twofold - (1) promote consulting services of a real company "ASK SOLUTIONS" to potential client 
 and (2) convince the client to make a first contact with the compnay. 
-*The link to the website: [ASK SOLUTIONS](https://askfrsltn.github.io/CI_MSP1_andriysaltanchuk_professional-service-website]
-*It is important to understand who the user is before developping a website. Potential client is a mid size company owner 
+* The link to the website: [ASK SOLUTIONS](https://askfrsltn.github.io/CI_MSP1_andriysaltanchuk_professional-service-website]
+* It is important to understand who the user is before developping a website. Potential client is a mid size company owner 
 who speaks Russian, English or Ukrainian language. S/he struggles with some business managemnt issue and considers an advise 
 from external expert in the field of finance and business management. Maybe it is a first time he considers that. He has a vague idea what he needs
 However he knows that one of the digital tools such as Power BI, Google data studio and excell can be a part of his solution.
