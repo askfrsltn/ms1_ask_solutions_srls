@@ -1,32 +1,49 @@
-/* -------------------FONTS-*/
+/* -------------------FONTS-------*/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
-/* -------------------GENERAL SETTINGS--------------------------------------*/
-body{
-    height: 100%;
-}
 /*------to keep the footer at the bottom-*/
 
-html, body {
+html, body{
     width: 100%;
     height: 100%;
 }
-article {
+article{
     min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
-main {
+main{
     flex-grow: 1;
 }
 
 header, main, footer {
     flex-shrink: 0;
 }
+
+body{
+    height: 100%;
+}
+
+/*---------------DELETE UNWANTED AUTO-COLORS-----*/
+*:focus{
+    outline: 0 !important;
+}
+
+a:hover{
+    color: inherit;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.decoration-none{
+    text-decoration:none;
+}
+/* -------------------GENERAL ELEMENTS STYLES--------------------------------------*/
 
 header{
     width: 100%;
@@ -46,27 +63,6 @@ h6{
     font-family: "Lato",sans-serif;
     font-weight: 400;
     line-height: 1.5;
-
-}
-
-a {
-    color:inherit;
-    text-decoration: none;
-}
-
-.decoration-none{
-    text-decoration:none;
-}
-
-*:focus {
-    outline: 0 !important;
-}
-
-a:hover{
-    color: inherit;
-}
-a {
-    text-decoration: none !important;
 }
 
 hr{
@@ -80,7 +76,8 @@ hr{
     font-family: "Exo", sans-serif;
     font-weight: 300;
 }
-/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION---------------------------*/
+
+/* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION-------------*/
 
 .btn-group{
     margin-top: -65px;
@@ -88,9 +85,11 @@ hr{
     margin-right: 15px;
     margin-left: 40px;
 }
+
 #mobile{
     padding-left: 10px;
 }
+
 .btn1{
     display: inline-block;
     font-weight: 400;
@@ -116,24 +115,6 @@ hr{
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 16px;
-}
-.btn-secondary:focus .btn-secondary:active{
-    border-color: none;
-    background-color: #e96541;
-    box-shadow: none;
-    outline: none;
-}
-
-.btn-secondary:hover {
-    background-color: #e96541;
-    border-radius: 100px;
-    border-color: #e96541;
-    box-shadow: none;
-    outline: none;
-}
-.btn-primary:hover{
-    background-color:#d9dedf;
-    border-color: #d9dedf;
 }
 
 .dropdown-menu{
@@ -170,10 +151,6 @@ hr{
 }
 
 /* -------------------LANDING-PAGE----------------------------------------------*/
-
-.landing-page-main{
-    
-}
 .landing-page{
     position: fixed;
     top: 0;
@@ -253,19 +230,8 @@ hr{
     font-family: "Exo" , sans-serif;
     color: #fafafa;
     width: 300px;
-    -webkit-appearance: none;\
+    -webkit-appearance: none;
     shadow:none;
-}
-
-#landingpage-button1:hover{
-    color: #d9dedf;
-    border-color: #d9dedf;
-
-}
-#landingpage-button2:hover{
-    background-color:#d9dedf;
-    border-color: #d9dedf;
-    color: #183f49;
 }
 
 #landingpage-button1 h1{
@@ -353,12 +319,6 @@ hr{
     outline: none;
     transition: all 0.35s ease-in-out;
 } 
-.language-item-active:hover{
-    background-color:#183f49;
-    border-color: #d9dedf;
-    color: #d9dedf;
-}
-
 
 .active {
   border-bottom: 1px solid;
@@ -370,10 +330,6 @@ hr{
 .inactive {
   color: #183f45;
 }
-.inactive:hover{
-    color: #e96541;
-}
-
 
 .btn-primary{
     background-color: #e96541;
@@ -387,7 +343,7 @@ nav {
     text-align: center;
 }
 
-.nav li {
+.nav li{
     padding: 10px;
     margin-bottom: 0;
     margin-right:10px;
@@ -403,11 +359,6 @@ a h6{
     font-weight: 400;
     color: #183f45;
     text-align: right;
-}
-
-a h6:hover{
-    font-weight: 500;
-    color: #183f45;
 }
 
 /* -------------------HOME-SECTION-----------------------------------------*/
@@ -462,11 +413,6 @@ a h6:hover{
     padding-top: 7px;
 }
 
-#call-out-button1:hover{
-    color: #d9dedf;
-    border-color: #d9dedf;
-
-}
 #call-out-button2{
     font-family: "Lato", sans-serif;
     font-weight: 300;
@@ -477,13 +423,6 @@ a h6:hover{
     width: 85%;
     margin-top: 50px;
     padding-top: 7px;
-}
-
-#call-out-button2:hover{
-    background-color:#d9dedf;
-    border-color: #d9dedf;
-    color: #183f49;
-
 }
 
 .rsection-description{
@@ -508,10 +447,6 @@ a h6:hover{
     background-color: #f6f9fb;
     vertical-align:middle;
 }
-.card.success-factors-item:hover{
-    background: #d9dedf;
-    border-color: #d9dedf
-}
 
 .four-components{
     margin-bottom:20px;
@@ -523,7 +458,7 @@ a h6:hover{
     margin-top: 30px;
 }
 
-.service-component-title {
+.service-component-title{
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
@@ -556,13 +491,13 @@ h6 p{
     color: #183f45;
 }
 
-.card {
+.card{
     padding-bottom: 5px;
     margin-top: 15px;
     margin-bottom:0px;
 }
 
-.card-header {
+.card-header{
     padding: 0;
 }
 
@@ -578,11 +513,11 @@ mb-0{
     display: inline-block;
 }
 
-button span i {
+button span i{
     color: #4e676e;
 }
 
-h6.case-subtitle {
+h6.case-subtitle{
     font-family: "Lato", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -656,7 +591,7 @@ h6.case-subtitle {
     text-align: center;
 }
 
-.center-form {
+.center-form{
     margin-top: 10px;
     margin: auto;
     font-family: "Lato",sans-serif;
@@ -729,7 +664,7 @@ footer{
     padding: 0px;
 }
 
-.social-media-box {
+.social-media-box{
     text-align: center;
     margin-top: 0;
 }
@@ -751,7 +686,7 @@ footer{
     margin: 0;
 }
 
-.icon-item {
+.icon-item{
     height: 28px;
     padding-top: 8px;
     margin: 1px;
@@ -771,7 +706,71 @@ footer{
     -o-transition: all 0.35s ease-in-out;
 }
 
-.icon-item:hover {
+/*--------------------HOVERS,FOCUS, ACTIVE SETTINGS for all the buttons--*/
+.btn-secondary:focus .btn-secondary:active{
+    border-color: none;
+    background-color: #e96541;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-secondary:hover{
+    background-color: #e96541;
+    border-radius: 100px;
+    border-color: #e96541;
+    box-shadow: none;
+    outline: none;
+}
+.btn-primary:hover{
+    background-color:#d9dedf;
+    border-color: #d9dedf;
+}
+
+#landingpage-button1:hover{
+    color: #d9dedf;
+    border-color: #d9dedf;
+
+}
+
+#landingpage-button2:hover{
+    background-color:#d9dedf;
+    border-color: #d9dedf;
+    color: #183f49;
+}
+
+.language-item-active:hover{
+    background-color:#183f49;
+    border-color: #d9dedf;
+    color: #d9dedf;
+}
+
+.inactive:hover{
+    color: #e96541;
+}
+
+a h6:hover{
+    font-weight: 500;
+    color: #183f45;
+}
+
+#call-out-button1:hover{
+    color: #d9dedf;
+    border-color: #d9dedf;
+}
+
+#call-out-button2:hover{
+    background-color:#d9dedf;
+    border-color: #d9dedf;
+    color: #183f49;
+}
+
+.card.success-factors-item:hover{
+    background: #d9dedf;
+    border-color: #d9dedf
+}
+
+.icon-item:hover{
     background: #4e676e;
     color: #ffffff;
 }
+
