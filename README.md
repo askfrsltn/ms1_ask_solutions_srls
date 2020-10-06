@@ -48,6 +48,7 @@ In developping wireframes I was guided by foloowing principles:
 3. I applied a "mobile first" approach. 
 4. I was trying to avoid ecsessive content focusing more on user need to make decision as quickly as possible.
 5. using Balsamique I developped 5 pages website for mobile (picture 1), then desktop versions of it (figure 2), after that I developed css layout (figure 3): 
+6. I discussed the wireframes with mentor and started to list features and elements I wanted to use in Surface plane of UXD.
 
 #### picture 1: Mobile pages in Balsamique
 ![Mobile wireframse](assets/imgs/readme_wireframes_mobile1.jpg "Mobile Wireframes")
@@ -58,7 +59,7 @@ In developping wireframes I was guided by foloowing principles:
 #### picture 3: pages grid layout in Balsamique for mobile and Desktop
 ![Desktop wireframse](assets/imgs/readme_wireframes_layout1.jpg "layout1 Wireframes")
 
-6. I discussed the wireframes with mentor and started to list features and elements I wanted to use in Surface plane of UXD.
+
 
 ## **FEATURES**
 
@@ -145,58 +146,75 @@ In this section I will list programing languages, development tools, framworks, 
     - and hundreds of other cases from [Stack overflow](https://stackoverflow.com/)
 
 ## **TESTING**
-text
+I tested the site using (1)) W3C html validator, (2)Jigsaw CSS validator, tested navigation using Google Firefox and Safari browsers (3). 
+I also asked my friends to test user experience online (4)
+Here are the results:
+
+### **1. HTML W3C validator**
+I had 77 errors and warnings to fix. I fixed most of them however I left some of them unsolved on purpose, 
+e.g main tag inside article structure was used to keep the footer at the bootom following the recommendation from [Dominik Weber](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f)
+
+**Picture 4: V3C html5 validation process**
+![CSS Validation](assets/imgs/w3cvalidator-html-result.jpg "Css validation through Jigsaw")
+
+### **2. Jigsaw CSS validator**
+I ran a Jigsaw test and had 9 problems to fix. 
+They were minor problems and did not have significant impact on stylling. 7 of them I fixed. 2 related to bootstrap I was not able to find.
+
+**Picture 4: V3C CSS3 validation process**
+![CSS Validation](assets/imgs/cssjigsaw-validator-result.jpg "Css validation through Jigsaw")
+
+### **3. Browsers Devtool testing**
+
+Safari browser is the only browser that showed me different appearence of the major call-out buttons 
+and language icons. Itried to fix this bug in verious ways but it did not work. 
+I will discuss this issue with my mentor.
+picture
+
+**Picture 5: Browser testing**
+![CSS Validation](assets/imgs/testing-bug.jpg "testing on 3 different browsers")
+
+### **4. Friends' feedback**
+2 of my friends tested the site and how easy it was to browse across the page. 
+They do not have any developer background and did not notice any misalignments or poor functioning.
+They said it is not confusing. The colors are ok. The call out page on the home page a bit irritating because it screams to them.
+Theu did not get the purpose of the image. But they said it is not that important because it is not the purpose of the visit.
+And did not distratc them. They liked the carousel with credentials and cases. It captured their attention.
 
 ## **DEPLOYMENT**
-text
+I deployed the site through git hub.
+I foloowed the steps:
+1. on the gitpod: git add .
+2. Git commit -m "message"
+3. Git push
+4. Went to Github, selected repository: "CI_MSP1_andriysaltanchuk_professional-service-website" 
+5. On the grey menu selected tab "Settings"
+6. Scrolled down to "Github Pages", from dropdown menu section selected "branch: master" 
+7. Press Save button.
+
 
 ## **CREDITS**
+
 ### **1.Content**
+
+I wrote all the content myself based on my experience
+
 ### **2.Media**
+
+* Most pf the pictures I did myself including hero image and credentials documents.
+* logo image was taken from free wallpaper soource: https://wallpaper-house.com/wallpaper-id-30670.php 
+* BP logo was taken from the web
+* my clients logo for cases were provided by Rim-Tours (Rome) owner and B-Elite (Ukraine) owner, 
+both gave me permissions to use their image.
+
 ### **3.Aknowledgement**
+* I want to thank Code Institute for great couurse materials of HTML, CSS and UCFED materials  that prepared me to the project
+* I want to thank my mentor Ignatius Ukwuoma for:
+1. intro meeting: clear schedule that helped me to understand how to progress towards MS1.
+2. 1st MSP1 Meeting (23-Sep-2020): Pointion out my potential UIX weaknesses while during Wireframes review, giving very specific advices how to cope with the challenges that I highlighted, giving me links to great sources that helped me to compensate some gaps in my skillset.
+3. Mid-review MS1P meeting: (30-sep-2020): openly poinitng that I am 60% of the pogress vs 90% expected, 
+for his positive feedback about mobile version. Recommmendations to change desktop UXD 
+and 25 improvement recommendations.
+4. End of Project Review (6th of October) and his XX recommendations for improvement.
 
-______
-
-## **TESTING**
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+* Special thanks go to my family - my brother my wife, my litle son Luka and his younger sister Mia  who supported and motivated me in my journey towards my first developer project.
