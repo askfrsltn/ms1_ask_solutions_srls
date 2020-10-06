@@ -66,9 +66,8 @@ few seconds to relise that I need to press red button.
 
 
 ### **5. Technologies Used**
-* Google inspect
-* VIdeo
-* Fancyapp - to use carousel and align images on my credentials page.
+* Google DevTools - Googleinspect and Firefox inspect
+* Fancyapp/Fancybox - to use carousel and align images on my credentials page.
 
 #### 5.1 Languages Used
 * HTML5

@@ -1,7 +1,7 @@
 
-# WELCOME TO "ASK FOR SOLUTION" COMPANY WEBSITE
+# WELCOME TO "ASK FOR SOLUTION" CONSULTING COMPANY WEBSITE
 
-![ASK Solutions site preview](/assets/imgs/readme-top2.jpg "Desktop mobile site preview")
+![ASK Solutions site preview](assets/imgs/readme-top2.jpg "Desktop mobile site preview")
 
 * The purpose of the web-site is twofold - (1) promote consulting services of a real company "ASK SOLUTIONS" to potential client 
 and (2) convince the client to make a first contact with the compnay. 
@@ -11,12 +11,12 @@ who speaks Russian, English or Ukrainian language. S/he struggles with some busi
 from external expert in the field of finance and business management. Maybe it is a first time he considers that. He has a vague idea what he needs
 However he knows that one of the digital tools such as Power BI, Google data studio and excell can be a part of his solution.
 
-## USER EXPERIENCE
+## **USER EXPERIENCEF**
 ### 1. Before visit
 The client decides to visit the site most probabley follows recommmendation of someone who recommended him the company. 
 So he visits the domain www.ask-for-solution.com. A potential client wants to see answers to fundamental simple questions:
 1. Is it worth dealing with this company?
-2. what does this company do?
+2. What does this company do?
 3. Can the company help him?
 4. How exactly the company help him?
 5. Reasons for the client to believe the company?
@@ -31,8 +31,8 @@ Bases on the onformation on the site he will decide to deal witht this company o
 * If the user decides to read more, he read the title explaining that the company develop digital solutions for the business adn scroll down (on a mobile) or read next to the right.
 * After a first title he finds detailed information about service succcess- the user sees that his trust and compnay product effectievness is a key to success. 
 * At this point the client may want to decide to look at more details about this success factors, so he can press one of the cards and go to 1 of 2 pages:
-       - "Trust" card redirects him to credential page - simple page with image gallery. Here the client can press and chack that registration and qualification of the company is adequate and client can trust the company.
-       - "Products" card redirect him to "cases" page- the page where he can see 3  examples of the work the company did and some details that will convince the client that this exmples are clos to his business (results that the client achieved, actions and quote from the customer of the real companies)
+    - "Trust" card redirects him to credential page - simple page with image gallery. Here the client can press and chack that registration and qualification of the company is adequate and client can trust the company.
+    - "Products" card redirect him to "cases" page- the page where he can see 3  examples of the work the company did and some details that will convince the client that this exmples are clos to his business (results that the client achieved, actions and quote from the customer of the real companies)
 * Still on a home page if the client decides what exactly make this company unique he can find 4 more boxes explaingn that company believes in legal way of doing things, it  product is simple enough to learn and use.
 * If any moment the client decides to leave the page he sees the navigation bar at the top-center of desktop screen or he sees large orange burger button if he uses mobile, this menu helps him navigate the site from any page to any page (apart from landing).
 * On the footer of any page (desktop) the user can see registartion numbers that tells him that business is legal, official address of the company and 3 social media icons if he wants to know public infomration about company on linkedin, github or youtube channel.
@@ -40,49 +40,124 @@ Bases on the onformation on the site he will decide to deal witht this company o
 * Languages can be changed at any moment of site navigation through 3 icons at the header. Currently Russian and Ukrainian languages are under construction. If the user presses UA or RU icon in the header he can see a modal popupexplaining that this pages are under construction. The modal will be deleted after pages in other languages will be built.
 * COntact page has 2 sectios: address with googe map and a soimple 3-lines contact form.
 
-## APPROACH
-I took a mobile first approach, using Balsamique I developped 5 pages website for mobile (picture 1), then desktop versions of it (figure 2), after that I developed css layout (figure 3): 
-#### figure 1: Mobile pages in Balsamique
+## **APPROACH**
 
-### figure 2: Desktop pages in Balsamique
+In developping wireframes I was guided by foloowing principles:
+1. User experience should be intuitive therefore the site structure and experience should be intuitive, simple and usefull.
+2. Following 5 UXD planes guidelines to define strategy, scope, structure and skeleton of the website I defined user goals, my goals, listed priority questions and built my first version of wireframes.
+3. I applied a "mobile first" approach. 
+4. I was trying to avoid ecsessive content focusing more on user need to make decision as quickly as possible.
+5. using Balsamique I developped 5 pages website for mobile (picture 1), then desktop versions of it (figure 2), after that I developed css layout (figure 3): 
 
-### figure 3: pages grid layout in Balsamique for mobile and Desktop
+#### picture 1: Mobile pages in Balsamique
+![Mobile wireframse](assets/imgs/readme_wireframes_mobile1.jpg "Mobile Wireframes")
 
+#### picture 2: Desktop pages in Balsamique
+![Desktop wireframse](assets/imgs/readme_wireframes_desktop1.jpg "Desktop Wireframes")
 
+#### picture 3: pages grid layout in Balsamique for mobile and Desktop
+![Desktop wireframse](assets/imgs/readme_wireframes_layout1.jpg "layout1 Wireframes")
 
-**Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+6. I discussed the wireframes with mentor and started to list features and elements I wanted to use in Surface plane of UXD.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+## **FEATURES**
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere 
-online and can be in any format that is viewable inside the browser.**
-
-## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
-## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+In this section I will list all the features I used at the website and I will try to explain why I chose them functionally and from design perspective.
 
 
-## Testing
+1. **Images**
+    > - Most of the images I used belong to me. hero-Image, documents on a credentials page etc
+    > - Logo images for clients quotes are provided by my partners. British Petroleum image was found in internet. 
+2. **Fonts**
+    > I used 2 types of fonts: Exo for titles and Late for small text.
+3. **Colors**
+    >I used 3 major colors: 
+    >- Red-Carrot - #E96541 to highlight buttons and important text
+    >- Dark-olive - #183f45 for regular text and titles
+    >- Light grey - #D9DEDF, to dim certain unimportant text that needs to be on a page however it is not that important
+    >- Some other light grey colors were used form time to time for background and to create a contrast  with cards etc.
+
+4. **Icons**
+    > Fontawesome is a good resource for majority of Icons on a website, 
+    > I also used a Bootstrap icon for mobile version dropdown menu 
+5. Bootstrap layout tools
+    >- Grid - to ensure respnsiveness between desktop and mobile screen standard sizes
+    >- Flexbox was used in some cases to distribute components inside container (e.g. footer or Social media icons)
+6. Modals
+    >I used modal to show a message for those languages that are still in development (RU and UA). There is a fantastic [video on youtube by Max from Academind](https://youtu.be/N3RK2dZpQXs?t=727 "How to create modal in CSS") that helped me very simple and easy to follow.
+7. **Image Gallery (carousel)**
+    >Following great recommendation of my mentor Ignatius I used [Fancybox](https://fancyapps.com/fancybox/3/docs/ "Great tool of working with images in CSS") to create an image carousel and allign images on my credentials page, I edited it to make it work with documents sizes.
+8. **Buttons**
+    >I created buttons myself and used Bootstrap buttons source. I edited them a lot therefore ran in different challenges with codes.
+    >I used :hover to make simple animations with icons, fonts, background colors and borders.
+9. **Cards**
+    >I used 2 types of cards:
+    >-Bootstrap accordion for my "cases" page. It really nicely groups content into separate theme sections on the page
+    >-Because Bootstrap took me a lot of time I made some buttons myself such as navigation buttons, social media and cards buttons on a home page.
+10. **Map and Iframe**
+    >Google code for the map was used on a contact page to show where exactly the company is located. 
+11. Form
+    >Standard 3 line form was used from love-running project. I thought its simplicity and functionality meets functional and design requirement in full. I changed the button color to match the standard I use across the site.
+
+## **FEATURES STILL TO IMPLEMENT**
+There are few elements and components I plan to implement after I submit the project:
+1. **Languages** - I want to translate the site in Russian and Ukrainin language because it will be used for russian, ukrainian speaking client.
+2. **Links to live digital tools** - I have few business analytics tools that I developped, they are currently online but I want to sanitise them before I can link to it. They have sensitive information.
+3. **Video Content** - i plan to open Youtube channel and embed my short video content onto website home page below "4 aspects of work" section. Maybe I will move it up the content as more priority section.
+
+## **TECHNOLOGIES**
+In this section I will list programing languages, development tools, framworks, libraries and programs
+
+### **1. Languages**
+* **HTML5** - basic front-end language for web structure
+* **CSS3** - for styling html including Grid, Flexbox to develop responsive layout
+* JavaScript embedded into bootstrap solutions sucha as buttons, carousels and cards animation.
+
+### **2. Developmet Tools**
+* **Google DevTools** - Googleinspect and Firefox inspect to address bugs and fix responsiveness misalignments
+* **Fancyapp/Fancybox** - to use carousel and align images on my credentials page.
+
+### **3. Frameworks,Libraries and Programs**
+* **Balsamiq**: to create the wireframes during the design process
+* **Bootstrap 4.4.1**: to assist with the responsiveness and styling of the website.
+* **Hover.css**: for Social Media icons in the footer to add the float transition while being hovered over.
+* **Google Fonts**: Google fonts were used to import the 'Exo' 'Roboto' and "Lato' font into the style.css file which is used on all pages throughout the project.
+* **Font Awesome**: Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+* **jQuery**: for smooth scroll function in JavaScript and for Flexbox carousel.
+* **Git**: for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* **GitHub**: to store the projects code after being pushed from Git.
+
+### **4.Other sources of Design Inspiration**
+1. [AWWARDS](https://www.awwwards.com/) - benchmark for websites of different purposes
+2. [Minasi](https://minasi.eu/) - simple yet effective business website focused on medium business
+3. [ITIHI](https://iti.ca/en/contact/#form)  company website, great concept and few color ideas that I borrowed.
+4. [Coursera](https://www.coursera.org/completed) - for accordion solution hint for cases page (changed afterwards though)
+5. [Dashlane](https://www.dashlane.com/) add on the facebook for colors combination (dark olive color) 
+6. [LABA](https://l-a-b-a.com/) - my banchmark for layout simplicity 
+7. [Best Modern & Contemporary Thin & Extra Light Fonts](https://www.colourmylearning.com/2018/01/best-modern-contemporary-thin-extra-light-fonts/) to make decision on font selection
+8. Numerous Problem solving sources:
+    - [Deploying](https://www.codecademy.com/articles/f1-u3-github-pages)
+    - [Grid](https://www.youtube.com/watch?v=qmPmwdshCMw&ab_channel=Academind)
+    - [Linking Image](https://stackoverflow.com/questions/42793292/how-to-load-image-and-other-assets-in-angular-an-project)
+    - [3 step responsiveness article](https://www.webdesignersacademy.com/show-and-hide-different-content-on-mobile-devices-desktops/#universal)
+    - [README file](https://www.markdownguide.org/basic-syntax/) - Thanks to my mentor Ignatius
+    - [keep the footer at the bottom](https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f) - Thanks to my mentor Ignatius
+    - and hundreds of other cases from [Stack overflow](https://stackoverflow.com/)
+
+## **TESTING**
+text
+
+## **DEPLOYMENT**
+text
+
+## **CREDITS**
+### **1.Content**
+### **2.Media**
+### **3.Aknowledgement**
+
+______
+
+## **TESTING**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
