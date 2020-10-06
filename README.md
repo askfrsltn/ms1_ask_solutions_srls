@@ -166,10 +166,11 @@ They were minor problems and did not have significant impact on stylling. 7 of t
 
 ### **3. Browsers Devtool testing**
 
-Safari browser is the only browser that showed me different appearence of the major call-out buttons 
-and language icons. Itried to fix this bug in verious ways but it did not work. 
-I will discuss this issue with my mentor.
-picture
+Out of 3 browsers that were used to test the site (Gchrome, Firefox, Safari) Safari browser was the only one 
+that showed different result. Landing page call-out buttons 
+and language icons were distorted. I tried to fix this bug in verious ways but it did not work. 
+I discussed this issue with my mentor he recommended the fix that worked (adding -webkit- 
+prefix to border-radius attribute of buttons).
 
 **Picture 5: Browser testing**
 ![CSS Validation](assets/imgs/testing-bug.jpg "testing on 3 different browsers")
@@ -210,11 +211,11 @@ both gave me permissions to use their image.
 ### **3.Aknowledgement**
 * I want to thank Code Institute for great couurse materials of HTML, CSS and UCFED materials  that prepared me to the project
 * I want to thank my mentor Ignatius Ukwuoma for:
-1. intro meeting: clear schedule that helped me to understand how to progress towards MS1.
-2. 1st MSP1 Meeting (23-Sep-2020): Pointion out my potential UIX weaknesses while during Wireframes review, giving very specific advices how to cope with the challenges that I highlighted, giving me links to great sources that helped me to compensate some gaps in my skillset.
-3. Mid-review MS1P meeting: (30-sep-2020): openly poinitng that I am 60% of the pogress vs 90% expected, 
+1. __Intro meeting__: clear schedule that helped me to understand how to progress towards MS1.
+2. __1st MSP1 Meeting__ (23-Sep-2020): Pointion out my potential UIX weaknesses while during Wireframes review, giving very specific advices how to cope with the challenges that I highlighted, giving me links to great sources that helped me to compensate some gaps in my skillset.
+3. __Mid-review__ MS1P meeting: (30-sep-2020): openly poinitng that I am 60% of the pogress vs 90% expected, 
 for his positive feedback about mobile version. Recommmendations to change desktop UXD 
 and 25 improvement recommendations.
-4. End of Project Review (6th of October) and his XX recommendations for improvement.
+4. __End of Project Review__ (6th of October) and his 23 minorrecommendations for improvement
 
 * Special thanks go to my family - my brother my wife, my litle son Luka and his younger sister Mia  who supported and motivated me in my journey towards my first developer project.

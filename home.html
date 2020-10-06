@@ -18,13 +18,13 @@
 </head>
 
 <body>
-	<div>
+	<main>
 		<header class="flex-header">
-			<!-- -------------- LOGO -->
+			<!-- -------------- LOGO --- -->
 			<div class="flexheader-logo">
 				<a class="col-2" href="home.html">
 					<img src="assets/imgs/logo3.jpg" alt="Logo image AsK" class="logo">
-                    </a>
+                </a>
 			</div>
 			<!-- --------------LANGUAGES- -->
 			<div class="flexheader-language">
@@ -48,7 +48,7 @@
 			<!-- -------------- NAVIGATION - -->
 			<div class="flexheader-nav desktop">
 				<ul class="list-inline nav">
-					<li class="list-inline-item" style="text-decoration:none;>
+					<li class="list-inline-item" style="text-decoration:none;">
                         <a href="home.html">
 						    <h6 class="active">Home</h6>
 						</a>
@@ -73,26 +73,26 @@
 
 		</header>
         <!-- ------------invisible button that appears on mobile version only - -->            
-                <div class="offset-8 mobile">
-                    <div class="btn-group">
-                        <button type="button" class="btn1 btn-secondary" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
-                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
-                            </svg>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a href="home.html" class="dropdown-item" id="dropdown-item-common" type="button">Home</a>
-                            <a href="cases.html" class="dropdown-item" id="dropdown-item-common" type="button">Cases</a>
-                            <a href="credentials.html" class="dropdown-item" id="dropdown-item-common" type="button">Credentials</a>
-                            <a href="contact.html" class="dropdown-item" id="dropdown-item-ask" type="button">Contact us</h3></a>
-                        </div>
-                    </div>
-                
+        <div class="offset-8 mobile">
+            <div class="btn-group">
+                <button type="button" class="btn1 btn-secondary" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a href="home.html" class="dropdown-item" id="dropdown-item-common" type="button">Home</a>
+                    <a href="cases.html" class="dropdown-item" id="dropdown-item-common" type="button">Cases</a>
+                    <a href="credentials.html" class="dropdown-item" id="dropdown-item-common" type="button">Credentials</a>
+                    <a href="contact.html" class="dropdown-item" id="dropdown-item-ask" type="button">Contact us</h3></a>
                 </div>
+            </div>
+            
+        </div>
 		<!-- -------------- MAIN-CONTENT - -->
-		<main>
+		<section>
 			
-            <article class="container white-section">
+            <div class="container white-section">
 				<!-- -------------- HERO IMAGE - -->
 				<div class="row align-items-center">
 					<div class="col-sm-12 col-md-12 col-lg-4">
@@ -129,8 +129,8 @@
 							<br>
                             <br>
                             <div class="col-12">
-								<h6 id="rsection-aspects">Our mutual success is based
-									on 2 fundamental ingridients:</h6>
+								<h5 id="rsection-aspects">Our mutual success is based
+									on 2 fundamental ingridients:</h5>
 							</div>
 						</div>
 						<!-- -------------- success-factors - -->
@@ -163,8 +163,8 @@
 					</div>
 				</div>
 
-			</article>
-			<article class="greybackground-section">
+			</div>
+			<div class="greybackground-section">
 				<!-- -------------- 4components - -->
 				<div class="row justify-content-around four-components">
 					<div class="col-sm-12 col-md-3 col-lg-3 card shadow p-3 service-component-item">
@@ -217,8 +217,8 @@
 						</div>
 					</div>
 				</div>
-			</article>
-		</main>
+			</div>
+		</section>
 		<!-- -------------- FOOTER - -->
 		<footer class="flex-footer">
 
@@ -261,14 +261,14 @@
 					</li>
 				</ul>
 			</div>
-			<!-- -------------- MOBILE VERSION BUTTON ONLY - -->
-			    <div class="col mobile">
-                    <a href="contact.html">
-                    <button type="submit" class="btn btn-primary">Contact us</button>
-                    </a>
-                </div>
+            <!-- -------------- MOBILE VERSION BUTTON ONLY - -->
+            <div class="col mobile">
+                <a href="contact.html">
+                <button type="submit" class="btn btn-primary">Contact us</button>
+                </a>
+            </div>
 		</footer>
-	</div>
+	</main>
 	<!-- -------------- LANGUAGES-MODAL for UA and RU - -->
 	<div class="modal fade" id="language-modal">
 		<div class="modal-dialog">
