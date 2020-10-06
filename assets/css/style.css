@@ -80,7 +80,7 @@ hr{
 
 /* -------------------MEDIAQUeRIES RESPONSIVENESS SECTION-------------*/
 
-#mobile{
+.mobile{
     padding-left: 10px;
 }
 
@@ -109,19 +109,25 @@ hr{
 
 #dropdown-item-ask{
     color: #e96541;
+    font-size: 30px;
+    font-weight: 400;
+}
+#dropdown-item-common{
+    color: #183f45;
+    font-size: 30px;
+    font-weight: 400;
 }
 
-
 @media(max-width:768px){
-    #desktop {display: none;}
-    #mobile {display: block;}
+    .desktop {display: none;}
+    .mobile {display: block;}
     h1.title {text-align: center;}
     .address-title {border-top:1px s olid #e5ebf5;}
 }
 
 @media(min-width:769px){
-    #desktop{display: block;}
-    #mobile{display: none;}
+    .desktop{display: block;}
+    .mobile{display: none;}
 }
 
 /* -------------------LANDING-PAGE----------------------------------------------*/
@@ -151,10 +157,10 @@ hr{
     text-transform: uppercase;
     color:#fafafa;
 }
-
-
-
-
+#landingpagebutton-text{
+    font-size: 35px;
+    font-weight: 400;
+}
 /* -------------------FlexBOX-HEADER----------------------------------------------*/
 .flex-header{
     display: flex;
@@ -197,6 +203,7 @@ hr{
 
 .language-item{
     height: 28px;
+    width: 28px;
     padding-top: 7px;
     margin: 1px;
     border-radius: 50%;
@@ -214,6 +221,7 @@ hr{
 
 .language-item-active{
     height: 28px;
+    width: 28px;
     padding-top: 8px;
     margin: 1px;
     border-radius: 50%;

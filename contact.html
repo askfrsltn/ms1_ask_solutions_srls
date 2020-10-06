@@ -4,19 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!--------------------JQUERY LINKS COPIED TO ENABLE COLLAPS ITEMS------>  
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
-
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/8bab7cf7fa.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
@@ -26,37 +18,33 @@
 <body>
     <article>  
         <header class="flex-header">
-                <!------------------------ LOGO --------------------------->
+                <!-- ---------------------- LOGO ------------------------- -->
                 <div class="flexheader-logo">
                     <a class="col-2" href="home.html">
                         <img src="assets/imgs/logo3.jpg" alt="Logo image AsK" class="logo">
                     </a>
                 </div>
                 
-                <!---------------- LANGUAGES --->
-                <div class="flexheader-language">
-                    <ul class="list-inline languages">
-                        <li class="list-inline-item">
-                            <button type="button" class="language-item-active shadow">
-                                <a href="contact.html" "><p>EN</p></a>
-                            </button>
-                        </li>
-                        <li class="list-inline-item">
-                            <button type="button" class="language-item" 
-                            data-toggle="modal" data-target="#language-modal">
-                                <p>RU</p>
-                            </button>
-                        </li>
-                        <li class="list-inline-item decoration-none">
-                            <button type="button" class="language-item" 
-                            data-toggle="modal" data-target="#language-modal">
-                                <p>UA</p>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-                <!-------------------- NAVIGATION ----------------------->
-                <div id="desktop" class="flexheader-nav">
+                			<!-- --------------LANGUAGES- -->
+                            <div class="flexheader-language">
+                                <ul class="list-inline languages">
+                                    <li class="list-inline-item">
+                                        <a href="home.html" type="button" class="language-item-active shadow">EN</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="home.html" type="button" class="language-item" data-toggle="modal" data-target="#language-modal">
+                                            RU
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item decoration-none">
+                                        <a href="home.html" type="button" class="language-item" data-toggle="modal" data-target="#language-modal">
+                                            UA
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                <!-- ------------------ NAVIGATION --------------------- -->
+                <div class="flexheader-nav desktop">
                     <ul class="list-inline nav">
                             <li class="list-inline-item">
                                 <a href="home.html" >
@@ -75,17 +63,17 @@
                             </li>
                         </ul>
                 </div>
-                <!------------------- CONTACT BUTTON --------------->
+                <!-- ----------------- CONTACT BUTTON ------------- -->
 
-                <div id="desktop" class="col">
+                <div class="col desktop">
                     <a href="contact.html">
                     <button type="submit" class="btn btn-primary">Contact us</button>
                     </a>
                 </div>
 
         </header>
-                <!--------------invisible button that appears on mobile version only --->            
-                <div id="mobile" class="offset-8">
+                <!-- ------------invisible button that appears on mobile version only - -->            
+                <div class="offset-8 mobile">
                     <div class="btn-group">
                         <button type="button" class="btn1 btn-secondary" data-toggle="dropdown" 
                         data-display="static" aria-haspopup="true" aria-expanded="false">
@@ -93,17 +81,15 @@
                                 <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
                             </svg>
                         </button>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <button class="dropdown-item"  type="button"><a href="home.html">
-                        <h3 style="color:#183f45;">Home</h3></a></button>
-                        <button class="dropdown-item"  type="button"><a href="cases.html">
-                        <h3 style="color:#183f45;">Cases</h3></a></button>                        
-                        <button class="dropdown-item"  type="button"><a href="credentials.html">
-                        <h3 style="color:#183f45;">Credentials</h3></a></button>
-                    </div>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="home.html" class="dropdown-item" id="dropdown-item-common" type="button">Home</a>
+                            <a href="cases.html" class="dropdown-item" id="dropdown-item-common" type="button">Cases</a>
+                            <a href="credentials.html" class="dropdown-item" id="dropdown-item-common" type="button">Credentials</a>
+                            <a href="contact.html" class="dropdown-item" id="dropdown-item-ask" type="button">Contact us</h3></a>
+                        </div>
                     </div>
                 </div>
-        <!---------------- CONTENT-SECTION-TITLE------------------------------>
+        <!-- -------------- CONTENT-SECTION-TITLE---------------------------- -->
         <main class="container">
             <div class="row">
                 <div class="col-12">
@@ -113,7 +99,7 @@
                 </div>
             </div>
 
-            <!-----------------MAP&FORM SECTION ------------------------------>
+            <!-- ---------------MAP&FORM SECTION ---------------------------- -->
             <div class="row">			
 
                 <!------------ MAP ------------------------------->            
@@ -136,7 +122,7 @@
                     </div>
                 </div>
                 
-                <!------------ FORM-------------------------------------------->                
+                <!-- ---------- FORM------------------------------------------ -->                
 
                 <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="row">
@@ -147,12 +133,9 @@
                     <div class="row">
                         <div class="center-form">
                             <form>
-                                <input type="text" name="name" id="fullname" class="form-control" 
-                                placeholder="Name" required/>
-                                <input type="email" name="email" id="emailaddress" class="form-control" 
-                                placeholder="Email" required />
-                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" 
-                                placeholder="Problem description" required></textarea>
+                                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Problem description" required></textarea>
                                 <div class="form-row text-center">
                                     <div class="col">
                                         <button type="submit" class="btn btn-primary">Send</button>
@@ -165,9 +148,9 @@
                 
             </div>
         </main>
-        <!-------------------FOOTER-SECTION ----------------------------->    
+        <!-- -----------------FOOTER-SECTION ------------------------- -->    
         <footer class="flex-footer">       
-            <div id="desktop" class="flexfooter-box1">
+            <div class="flexfooter-box1 desktop">
                 <div class="row list-inline ">
                     <p class="col list-inline-item footer-item1">
                         Registration:
@@ -178,7 +161,7 @@
                     </div>
                 </div>
             </div>    
-            <div id="desktop" class="flexfooter-box2">
+            <div class="flexfooter-box2 desktop">
                 <div class="row list-inline">
                     <p class="col list-inline-item footer-item1">Address:</p>
                     <p class="col list-inline-item footer-item2">via Cervia 43P, Fregene, RM, Italy; <br> tel:+39 324 7917 555;
@@ -187,29 +170,26 @@
             </div>
         <div class="flexfooter-box3">
                 <ul class="list-inline social-media-box">
-                    <li class="list-inline-item">
-                        <button type="button" class="language-item shadow">
-                            <a target="_blank" href="https://www.linkedin.com/in/asaltanchuk/">
-                            <p><i class="fa fa-linkedin "></i></p></a>
-                        </button>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="language-item shadow">
-                            <a target="_blank" href="https://askfrsltn.github.io/andriysaltanchuk_cv/">
-                            <p><i class="fa fa-github"></i></p></a>
-                        </button>
-                    </li>
-                    <li class="list-inline-item decoration-none">
-                        <button type="button"class="language-item shadow">
-                            <a target="_blank"href="cases.html" ">
-                            <p><i class="fa fa-youtube"></i></p></a>
-                        </button>
-                    </li>
-                </ul>
+					<li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/asaltanchuk/" type="button" class="language-item shadow">
+                            <i class="fa fa-linkedin "></i>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="https://askfrsltn.github.io/andriysaltanchuk_cv/" type="button" class="language-item shadow">
+                            <i class="fa fa-github"></i>
+                        </a>
+					</li>
+					<li class="list-inline-item decoration-none">
+						<a target="_blank" href="https://askfrsltn.github.io/andriysaltanchuk_cv/" type="button" class="language-item shadow">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+					</li>
+				</ul>
             </div>
         </footer>
     </article>
-    <!---------------- LANGUAGES-MODAL for UA and RU --->
+    <!-- -------------- LANGUAGES-MODAL for UA and RU - -->
     <div class="modal fade" id="language-modal">
         <div class="modal-dialog">
                 <div class="modal-content">
