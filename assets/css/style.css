@@ -6,6 +6,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 main {
@@ -178,6 +179,7 @@ hr {
 .landingpage-button {
     flex:1;
 }
+
 #landingpagebutton-text {
     font-size: 35px;
     font-weight: 400;
@@ -294,14 +296,6 @@ a h6 {
 }
 
 /* -------------------HOME-SECTION-----------------------------------------*/
-.white-section {
-    margin: 10px;
-    margin-top:0;
-    padding: 10px;
-    padding-bottom:0px;
-    padding-top: 0;
-}
-
 .title {
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
@@ -313,6 +307,13 @@ a h6 {
     border-bottom: solid 1px #d9dedf;
 }
 
+.white-section {
+ margin:0;
+}
+
+.hero-image {
+    display:inline-block;
+}
 
 .hero-image1 {
     background-image: url("../imgs/hero-image10.jpg"); 
@@ -320,7 +321,7 @@ a h6 {
     height: 420px; 
     padding-top: 30px;
     border-radius: 10px;
-    width: 90%;
+    width: 85%;
     margin-top: 40px;
 }
 
@@ -332,6 +333,10 @@ a h6 {
     font-weight: 300;
     text-transform:uppercase;
     color: #fafafa;
+}
+
+.success-factor{
+    display: inline-block;
 }
 
 #rsection-aspects {
@@ -350,13 +355,15 @@ a h6 {
     color: #183f45;
     margin-top: 60px;
 }
+
 .two-success-factors {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom:20px;
 }
 
 .card.success-factors-item {
     margin: auto;
-    width: 90%;
+    width: 85%;
     height: 250px;
     margin-top: 10px;
     text-align: center;
@@ -366,14 +373,19 @@ a h6 {
     vertical-align:middle;
 }
 
-.four-components {
-    margin-bottom:20px;
+/*------HOME PAGE GREY SECTION------*/
+.grey-section {
+    background-color:#f6f9fb;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.greybackground-section {
-    background-color:#f6f9fb;
-    max-width: 100%;  
-    margin-top: 30px;
+.flexbox-factor-box {
+    flex:1;
+    text-align:center;
 }
 
 .service-component-title {
@@ -390,8 +402,8 @@ a h6 {
 .service-component-item {
     line-height: 1.5;
     border-radius: 10px;
-    height: 200px;
-    max-width: 280px;
+    max-width: 80%;
+    min-height: 220px;
     text-align: center;
     vertical-align: middle;
     background-color: #fafafa;
@@ -401,6 +413,10 @@ a h6 {
 .component-icon {
     font-size: 24px;
     color: #183f45;
+}
+
+.component-icon:hover {
+    color: #e96541;
 }
 
 /* -------------------CREDENTIALS/PRODUCST/FAQ-PAGEs COLLAPSE ELEMENT--------------*/
