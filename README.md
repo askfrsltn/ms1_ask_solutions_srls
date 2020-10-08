@@ -164,34 +164,36 @@ They were minor problems and did not have significant impact on stylling. 7 of t
 **Picture 4: V3C CSS3 validation process**
 ![CSS Validation](assets/imgs/cssjigsaw-validator-result.jpg "Css validation through Jigsaw")
 
-### **3. Browsers Devtool testing**
+### **3. Browsers Devtool (Inspect) testing**
 
-Out of 3 browsers that were used to test the site (Gchrome, Firefox, Safari) Safari browser was the only one 
-that showed different result. Landing page call-out buttons 
-and language icons were distorted. I tried to fix this bug in verious ways but it did not work. 
-I discussed this issue with my mentor he recommended the fix that worked (adding -webkit- 
-prefix to border-radius attribute of buttons).
+From the 3 browsers that were used to test the site (Chrome, Firefox, Safari) Safari browser was the only one 
+that showed different result. Landing page call-out buttons and language icons were distorted. 
+I tried to fix this bug in verious ways but it did not work. 
+I discussed this issue with my mentor he recommended the fix that also did not work (adding -webkit- prefix to border-radius attribute of buttons).
+Finally I just used bootstrap predefined button class "btn-outline-light" edited it to my colors and it seemd to work.
 
 **Picture 5: Browser testing**
 ![CSS Validation](assets/imgs/testing-bug.jpg "testing on 3 different browsers")
 
 ### **4. Friends' feedback**
-2 of my friends tested the site and how easy it was to browse across the page. 
-They do not have any developer background and did not notice any misalignments or poor functioning.
-They said it is not confusing. The colors are ok. The call out page on the home page a bit irritating because it screams to them.
-Theu did not get the purpose of the image. But they said it is not that important because it is not the purpose of the visit.
-And did not distratc them. They liked the carousel with credentials and cases. It captured their attention.
+2 of my friends tested the site on mobile phones (iPhone 11 and Iphone SE). 
+They did not have any developer background and did not notice any margin misalignments or poor functioning.
+They said it is intuitive. The colors are ok. The call out page on the home page a bit irritating because it screams to them.
+They did not get the meaning of the image but that was not that important afterall. 
+But it did not distract them. They liked the carousel with credentials and cases. 
+They recommended to put the contact form on top of the contact page followed with address and map, which I did.
 
 ## **DEPLOYMENT**
-I deployed the site through git hub.
+I deployed the site through gitpod and github.
 I foloowed the steps:
-1. on the gitpod: git add .
-2. Git commit -m "message"
-3. Git push
-4. Went to Github, selected repository: "CI_MSP1_andriysaltanchuk_professional-service-website" 
-5. On the grey menu selected tab "Settings"
-6. Scrolled down to "Github Pages", from dropdown menu section selected "branch: master" 
-7. Press Save button.
+1. Gitpod: git add .
+2. Gitpod: git commit -m "message"
+3. Gitpod: git push
+4. Github: selected repository: "CI_MSP1_andriysaltanchuk_professional-service-website" 
+5. Github: grey menu selected tab "Settings"
+6. Github: Scrolled down to "Github Pages", from dropdown menu section selected "branch: master" 
+7. GIthub: Press Save button.
+the link to repository on a github: 
 
 
 ## **CREDITS**
