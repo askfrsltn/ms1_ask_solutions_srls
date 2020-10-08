@@ -5,7 +5,7 @@
 
 * The purpose of the web-site is twofold - (1) promote consulting services of a real company "ASK SOLUTIONS" to potential client 
 and (2) convince the client to make a first contact with the compnay. 
-* The link to the website: [ASK SOLUTIONS](https://askfrsltn.github.io/CI_MSP1_andriysaltanchuk_professional-service-website]
+* The link to the website: [ASK SOLUTIONS](https://askfrsltn.github.io/ms1_ask_solutions_srls/) - https://askfrsltn.github.io/ms1_ask_solutions_srls/
 * It is important to understand who the user is before developping a website. Potential client is a mid size company owner 
 who speaks Russian, English or Ukrainian language. S/he struggles with some business managemnt issue and considers an advise 
 from external expert in the field of finance and business management. Maybe it is a first time he considers that. He has a vague idea what he needs
@@ -20,7 +20,8 @@ So he visits the domain www.ask-for-solution.com. A potential client wants to se
 3. Can the company help him?
 4. How exactly the company help him?
 5. Reasons for the client to believe the company?
-Bases on the onformation on the site he will decide to deal witht this company or not.
+
+Based on the onformation on the site he will decide to deal witht this company or not.
 
 ### 2. First Visit
 * The landing page gives a user a positive answer to the very first question: yes this company has a site, it looks simple, professional and it seems like they really solve some issues.
@@ -193,7 +194,8 @@ I foloowed the steps:
 5. Github: grey menu selected tab "Settings"
 6. Github: Scrolled down to "Github Pages", from dropdown menu section selected "branch: master" 
 7. GIthub: Press Save button.
-the link to repository on a github: 
+the link to repository on a github: [Ask Solutions Srls Repository](https://github.com/askfrsltn/ms1_ask_solutions_srls "MS Project 1") (https://github.com/askfrsltn/ms1_ask_solutions_srls)  
+Website link: [Ask Solutions Srls website](https://askfrsltn.github.io/ms1_ask_solutions_srls/ "ASK solutions website on github")
 
 
 ## **CREDITS**
